@@ -1,8 +1,7 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/dashboard/dashboard",
-    "pages/login/login"
+    "pages/dashboard/dashboard"
   ],
   "window":{
     "backgroundTextStyle":"light",
