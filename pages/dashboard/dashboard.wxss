@@ -22,13 +22,33 @@
   top: 10vh;
   width: 40vw;
   height: 40vw;
-  border: 1px solid black;
+   border: 1px solid black; 
   border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
    justify-content: center; 
   text-align: center;
+}
+.arc{
+  overflow: hidden;
+  position: absolute;
+  top: -5rpx;
+  right: 50%;
+  bottom: 50%; 
+  left: -5rpx; 
+  transform-origin: 100% 100%;
+  transform: rotate(180deg) skewX(0deg);
+}
+.arc:before {
+  box-sizing: border-box;
+  display: block;
+  border: solid 10rpx blue;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+  transform: skewX(0deg);
+  content: '';
 }
 
 .progress-level{

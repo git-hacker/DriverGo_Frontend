@@ -3,6 +3,7 @@
 <!--Driver Stats  -->
 <view class="driver-stats-div">
   <view class="progress-bar">
+    <view class="arc"></view>
     <view class="progress-level">L4</view>
     <view class="progress-km"> 34789 KM</view>
   </view>
