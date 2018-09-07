@@ -118,6 +118,7 @@
   margin: -5rpx;
   position: absolute;
   left: 10px;
+  z-index: 1;
 }
 
 

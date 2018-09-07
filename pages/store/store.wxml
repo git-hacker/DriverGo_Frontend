@@ -1,0 +1,131 @@
+<!--pages/store/store.wxml-->
+<view class='container'>
+
+  <view class='category'> Restaurants
+   <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+  </view>
+
+  <view class='category'> Insurance
+   <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+  </view>
+
+  <view class='category'> Life service
+   <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+  </view>
+  <view class='tabs'>
+<view class="tab" bindtap="goMyPackages">
+    <text>Dashboard</text>
+  </view>
+
+<view class="tab" bindtap="goMyPackages">
+    <text>Store</text>
+  </view>
+
+<view class="tab" bindtap="goMyPackages">
+    <text>Me</text>
+  </view>
+</view>
+
+</view>
