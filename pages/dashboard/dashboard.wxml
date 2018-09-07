@@ -1,5 +1,25 @@
 <view class= "page">
 
+<!--Driver Stats  -->
+<view class="driver-stats-div">
+  <view class="progress-bar">
+    <view class="progress-level">L4</view>
+    <view class="progress-km"> 34789 KM</view>
+  </view>
+  <view class="stats-list">
+    <view class="stats-points">2574824 P</view>
+    <view class="stats-stations">345 Stations</view>
+    <view class="stats-trips">18 Trips</view>
+  </view>
+</view>
+
+<!-- Service station  -->
+<view class="station-div">
+  <image class="map-icon" src="/lib/images/map-marker-alt-solid.svg"></image>
+  <view class="station-title">XX Service Station (1458 drivers stopped here)</view>
+  <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
+</view>
+
 <!--Goods List  -->
  <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
