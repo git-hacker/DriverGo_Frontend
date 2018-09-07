@@ -1,5 +1,4 @@
 /* pages/leaderboard/leaderboard.wxss */
-
 .container {
   min-height: 100vh;
   height: 100%;
@@ -123,3 +122,4 @@
   border-radius: 5rpx;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2)
 }
+

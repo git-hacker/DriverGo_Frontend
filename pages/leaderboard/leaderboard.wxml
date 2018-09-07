@@ -1,5 +1,4 @@
 <!--pages/leaderboard/leaderboard.wxml-->
-
 <view class="container">
   
 
@@ -27,3 +26,4 @@
 
 
 </view> 
+
