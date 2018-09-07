@@ -1,0 +1,23 @@
+/* pages/login/login.wxss */
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.go-button{
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid black;
+ 
+  text-align: center;
+
+}
+
+.go-button text{
+  flex: 0 0 auto;
+  font-size: 50rpx;
+  margin-top: 30rpx;
+}

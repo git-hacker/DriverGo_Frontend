@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+<view class="page">
+  <view class="go-button">
+    <text>Go!</text>
+  </view>
+</view>
