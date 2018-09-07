@@ -17,7 +17,6 @@
   flex-direction: column;
   align-content: center;
   align-items:  center;
-  background: var(--peach-grad);
   width: 100vw;
   height: 410rpx;
   margin: 0rpx 0rpx 10rpx 0rpx;
