@@ -1,2 +1,27 @@
-<!--pages/dashboard/dashboard.wxml-->
-<text>pages/dashboard/dashboard.wxml</text>
+<view class= "page">
+
+<!--Game card  -->
+<view class="game-div">
+  <view class="game-card">
+    <view class="game-title">Play DriverGo to get rewards</view>
+    <view class="game-info">835 drivers played!</view>
+    <view class="game-info">835 drivers played!</view>
+    <view class="game-button">Play</view>
+  </view>
+</view>
+
+<!--Tabs  -->
+<view class='tabs'>
+<view class="tab" bindtap="goMyPackages">
+    <text>Dashboard</text>
+  </view>
+
+<view class="tab" bindtap="goMyPackages">
+    <text>Store</text>
+  </view>
+
+<view class="tab" bindtap="goMyPackages">
+    <text>Me</text>
+  </view>
+</view>
+</view>

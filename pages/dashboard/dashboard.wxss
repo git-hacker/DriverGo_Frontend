@@ -1,1 +1,53 @@
 /* pages/dashboard/dashboard.wxss */
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*Game card  */
+.game-div{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 72vh;
+  height: 20vh;
+  width: 100vw;
+  background-color: grey;
+}
+
+.game-card{
+  margin: 10rpx;
+  width: 
+  padding: 20rpx;
+  background-color: white;
+}
+
+
+
+
+/*Tabs  */
+.tabs {
+position: fixed;
+top: 92vh;
+display: flex;
+height: 8vh;
+width: 100vw;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+z-index: 1;
+border-top: 1px solid lightgrey;
+}
+
+.tab {
+  width: 30vw;
+  background: white;
+  font-size: 40rpx;
+  text-align: center;
+}
+
+.tab text{
+}
