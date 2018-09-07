@@ -1,5 +1,43 @@
 <view class= "page">
 
+<!--Goods List  -->
+ <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+ <!-- </view> -->
+
 <!--Game card  -->
 <view class="game-div">
   <view class="game-card">
