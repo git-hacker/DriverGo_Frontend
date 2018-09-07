@@ -4,6 +4,7 @@
     "pages/dashboard/dashboard",
     "login/login/login",
     "pages/leaderboard/leaderboard"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -7,6 +7,49 @@
   justify-content: space-around;
 }
 
+/*Goods cards  */
+.goods-div{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 52vh;
+  height: 20vh;
+  width: 100vw;
+}
+
+.goods-div2{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 100vw;
+}
+
+.goods-card{
+  position: relative;
+  margin: 30rpx;
+  width: 25vw;
+  height: 10vh;
+  padding: 20rpx;
+  border: 5rpx solid black;
+}
+
+.goods-title{
+  position: absolute;
+  top: 60rpx;
+  width: 25vw;
+  left: 0;
+  text-align: center;
+}
+
+.goods-points{
+  position: absolute;
+  bottom: 10rpx;
+  left: 10rpx;
+}
+
 /*Game card  */
 .game-div{
   position: fixed;
@@ -15,14 +58,34 @@
   top: 72vh;
   height: 20vh;
   width: 100vw;
-  background-color: grey;
 }
 
 .game-card{
-  margin: 10rpx;
-  width: 
+  margin: 30rpx;
+  position: relative;
+  width: 80vw;
   padding: 20rpx;
-  background-color: white;
+  border: 5rpx solid black;
+}
+
+.game-info{
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+}
+
+.game-button{
+  position: absolute;
+  right: 30rpx;
+  top: 25rpx;
+  width: 100rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 2;
+  border: 1px solid black;
+  border-radius: 5rpx;
 }
 
 
