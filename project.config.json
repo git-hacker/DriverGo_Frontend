@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -58,6 +58,11 @@
 					"name": "leaderboard",
 					"pathName": "pages/leaderboard/leaderboard",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "store",
+					"pathName": "pages/store/store"
 				}
 			]
 		}
