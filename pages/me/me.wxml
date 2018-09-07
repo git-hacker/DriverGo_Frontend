@@ -1,0 +1,36 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+  <view class="banner">
+    <view class="banner-head">
+      <view class="names"> whatever </view>    
+      <view class="avatars">
+        <view><image class="avatar-banner" src= "{{avatar}}"></image></view>
+      </view>
+      <view class="names"> Fabio </view>
+    </view>
+    <view class='stats'>
+      <view class='distance'> distance </view>
+      <view class='distance'> stations </view>
+      <view class='distance'> trips </view>
+    </view>
+  </view>
+  <view class='banner-body'>
+    <view class='achivements'> achivements</view>
+     <view class='redemption'> redemption</view>
+  </view>
+    <view class='tabs'>
+<view class="tab" bindtap="goMyPackages">
+    <text>Dashboard</text>
+  </view>
+
+<view class="tab" bindtap="goMyPackages">
+    <text>Store</text>
+  </view>
+
+<view class="tab" bindtap="goMyPackages">
+    <text>Me</text>
+  </view>
+</view>
+
+</view> 
+
