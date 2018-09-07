@@ -7,14 +7,79 @@
   justify-content: space-around;
 }
 
+/* Driver Stats  */
+.driver-stats-div{
+  position: fixed;
+  height: 49vh;
+  width: 100vw;
+  top: 0vh;
+  background-color: lightgrey;
+}
+
+.progress-bar{
+  position: absolute;
+  left: 30vw;
+  top: 10vh;
+  width: 40vw;
+  height: 40vw;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: center; 
+  text-align: center;
+}
+
+.progress-level{
+  font-size: 50rpx;
+  padding-bottom: 30rpx;
+}
+
+.stats-list{
+  position: absolute;
+  bottom: 5vh; 
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+/*Station Name  */
+.station-div{
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 50vh;
+}
+
+.map-icon{
+  height: 5vh;
+  width: 5vw;
+  padding: 30rpx;
+}
+.arrow-icon{
+  height: 3vh;
+  width: 3vw;
+  padding: 30rpx;
+  padding-left: 50rpx;
+}
+
+.station-title{
+  font-size: 30rpx;
+}
+
 /*Goods cards  */
 .goods-div{
   position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  top: 52vh;
-  height: 20vh;
+  top: 54vh;
+  height: 18vh;
   width: 100vw;
 }
 
@@ -23,13 +88,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
+  height: 18vh;
   width: 100vw;
 }
 
 .goods-card{
   position: relative;
-  margin: 30rpx;
+  /* margin: 30rpx; */
   width: 25vw;
   height: 10vh;
   padding: 20rpx;
