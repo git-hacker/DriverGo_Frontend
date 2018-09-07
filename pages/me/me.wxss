@@ -1,0 +1,111 @@
+/* pages/me/me.wxss */
+.container {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0rpx;
+  box-sizing: border-box;
+  background-color: var(--offwhite);
+}  
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items:  center;
+  background: var(--peach-grad);
+  width: 100vw;
+  height: 410rpx;
+  margin: 0rpx 0rpx 10rpx 0rpx;
+  padding: 15rpx;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  height: 290rpx;
+  border-radius: 10rpx;
+}
+
+.names {
+  font-weight: 400;
+  font-size: 28rpx;
+  color: black;
+  margin:10rpx;
+  margin-bottom: 15rpx;
+}
+
+.avatars {
+  display: inline-flex;
+  align-items: center;
+}
+
+.avatar-banner {
+  border: 1px solid white;
+  background-color: lightgrey;
+  border-radius: 50%;
+  height: 120rpx;
+  width: 120rpx;
+  margin: -5rpx;
+ }
+
+.actions-box {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 10pt;
+  margin-top: 10rpx;
+  
+}
+.achivemts{
+  position: left;important
+
+}
+
+.redemption{
+
+}
+
+.stats{
+position: fixed;
+top: 25vh;
+display: flex;
+height: 8vh;
+width: 100vw;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+z-index: 1;
+border-top: 1px solid lightgrey;
+
+}
+
+.tabs {
+position: fixed;
+top: 92vh;
+display: flex;
+height: 8vh;
+width: 100vw;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+z-index: 1;
+border-top: 1px solid lightgrey;
+}
+
+.tab {
+  width: 30vw;
+  background: white;
+  font-size: 40rpx;
+  text-align: center;
+}
+
+.tab text{
+}

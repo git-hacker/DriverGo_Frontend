@@ -4,7 +4,8 @@
     "pages/dashboard/dashboard",
     "login/login/login",
     "pages/leaderboard/leaderboard",
-    "pages/store/store"
+    "pages/store/store",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
