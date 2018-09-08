@@ -115,15 +115,15 @@
   </swiper>
   </view>
   <view class='tabs'>
-<view class="tab" bindtap="goMyPackages">
+<view class="tab" bindtap="goDashboard">
     <text>Dashboard</text>
   </view>
 
-<view class="tab" bindtap="goMyPackages">
+<view class="tab-active" >
     <text>Store</text>
   </view>
 
-<view class="tab" bindtap="goMyPackages">
+<view class="tab" bindtap="goMe">
     <text>Me</text>
   </view>
 </view>

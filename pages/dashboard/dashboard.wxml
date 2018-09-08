@@ -3,7 +3,7 @@
 <!--Driver Stats  -->
 <view class="driver-stats-div">
   <view class="progress-bar">
-    <view class="arc"></view>
+    <view class="arc" style=" animation:  animix 0.1s 0.15;  animation-fill-mode: forwards; animation-timing-function: ease; transform: rotate(45deg)"></view>
     <view class="progress-level">L4</view>
     <view class="progress-km"> 34789 KM</view>
   </view>
@@ -71,15 +71,15 @@
 
 <!--Tabs  -->
 <view class='tabs'>
-<view class="tab" bindtap="goMyPackages">
+ <view class="tab-active"> 
     <text>Dashboard</text>
   </view>
 
-<view class="tab" bindtap="goMyPackages">
+<view class="tab" bindtap="goStore">
     <text>Store</text>
   </view>
 
-<view class="tab" bindtap="goMyPackages">
+<view class="tab" bindtap="goMe">
     <text>Me</text>
   </view>
 </view>

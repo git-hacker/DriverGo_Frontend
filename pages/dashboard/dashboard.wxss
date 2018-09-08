@@ -30,7 +30,7 @@
    justify-content: center; 
   text-align: center;
 }
-.arc{
+/* .arc{
   overflow: hidden;
   position: absolute;
   top: -5rpx;
@@ -49,7 +49,62 @@
   border-radius: 50%;
   transform: skewX(0deg);
   content: '';
+} */
+.arc {
+overflow: hidden;
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  top: -5rpx;
+  right: 50%;
+  bottom: 50%; 
+  left: -5rpx; 
+  border-radius: 50%;
+	background: transparent;
+	border: 8rpx solid #efefef;
+	border-top-color: #efefef;
+    border-right-color: #efefef;
+    border-bottom-color: #efefef;
+    border-left-color: #efefef;
 }
+ /* .arc{
+        animation:  animix 0.1s 0.60; 
+      animation-fill-mode: forwards;
+       animation-timing-function: ease; 
+      transform: rotate(45deg) 
+}  */
+   @keyframes animix {
+    0% { 
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+     25% { 
+       border-top-color: red;
+       border-right-color: transparent;
+       border-bottom-color: transparent;
+       border-left-color: transparent;
+     }
+     50% { 
+       border-top-color: red;
+       border-right-color: red;
+       border-bottom-color: transparent;
+       border-left-color: transparent;
+     }
+     75% { 
+       border-top-color: red;
+       border-right-color: red;
+       border-bottom-color: red;
+        border-left-color: transparent; 
+     }
+      100% { 
+       border-top-color: red;
+       border-right-color: red;
+       border-bottom-color: red;
+       border-left-color: red;
+     } 
+   }
 
 .progress-level{
   font-size: 50rpx;
@@ -178,6 +233,7 @@
 
 /*Tabs  */
 .tabs {
+background-color: white;
 position: fixed;
 top: 92vh;
 display: flex;
@@ -197,5 +253,11 @@ border-top: 1px solid lightgrey;
   text-align: center;
 }
 
-.tab text{
+.tab-active{
+   width: 30vw;
+  background: white;
+  font-size: 40rpx;
+  text-align: center;
+   font-weight: bold;
+   border-bottom: 1px solid navy;
 }
