@@ -1,5 +1,6 @@
 /* pages/dashboard/dashboard.wxss */
 .page {
+   background-color: rgb(255,255,255); 
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -226,6 +227,7 @@ overflow: hidden;
 .stats-number{
   color: rgb(230,230,230);
   font-size: 40rpx;
+  font-weight: bold;
   letter-spacing: -1rpx;
 }
 
@@ -247,20 +249,33 @@ overflow: hidden;
 }
 
 .map-icon{
-  height: 5vh;
-  width: 5vw;
-  padding: 30rpx;
+  height: 3vh;
+  width: 3vh;
+  padding-left: 20rpx;
 }
+
+.station-title{
+  font-size: 40rpx;
+  letter-spacing: -1rpx;
+  color: #666666;
+}
+
+.station-title2{
+  letter-spacing: -1rpx;
+  font-size: 30rpx;
+  color: rgb(169, 169, 169);
+  margin-left: 20rpx;
+  padding-left: 10rpx;
+  border-left: 1rpx solid rgb(169, 169, 169);
+}
+
 .arrow-icon{
   height: 3vh;
   width: 3vw;
   padding: 30rpx;
-  padding-left: 50rpx;
+  padding-left: 30rpx;
 }
 
-.station-title{
-  font-size: 30rpx;
-}
 
 /*Goods cards  */
 .goods-div{
@@ -271,38 +286,75 @@ overflow: hidden;
   top: 54vh;
   height: 18vh;
   width: 100vw;
+  padding-left: 10vw;
 }
 
 .goods-div2{
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 18vh;
-  width: 100vw;
+  width: 90vw;
 }
 
 .goods-card{
   position: relative;
   /* margin: 30rpx; */
-  width: 25vw;
-  height: 10vh;
-  padding: 20rpx;
-  border: 5rpx solid black;
+  width: 28vw;
+  height: 23vw;
+  /* padding: 20rpx; */
+  border: 1rpx solid rgb(169, 169, 169);
+  border-radius: 4rpx;
+}
+
+.goods-image{
+  position: absolute;
+  top: 7rpx;
+  left: 7rpx;
+  width: 95%;
+  height:70%;
 }
 
 .goods-title{
   position: absolute;
-  top: 60rpx;
-  width: 25vw;
-  left: 0;
-  text-align: center;
+  bottom: 7rpx;
+  color: rgb(140, 140, 140);
+  /* width: 90rpx; */
+  height: 32rpx;
+  font-size: 30rpx;
+  letter-spacing: -1rpx;
+  left: 90rpx;
+   /* text-align: center; */
+    overflow: hidden;  
 }
 
 .goods-points{
+  color: rgb(80, 205, 171);
   position: absolute;
-  bottom: 10rpx;
-  left: 10rpx;
+  font-size: 30rpx;
+  bottom: 7rpx;
+  left: 7rpx;
+}
+
+/*Rewards Tag  */
+
+.rewards-div{
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 70vh;
+}
+
+.rewards-title{
+  font-size: 30rpx;
+  padding-top: 8rpx;
+  padding-left: 10rpx;
+  font-weight: bold;
+  letter-spacing: -1rpx;
+  color: rgb(80, 205, 171);
 }
 
 /*Game card  */
@@ -310,7 +362,7 @@ overflow: hidden;
   position: fixed;
   display: flex;
   justify-content: space-around;
-  top: 72vh;
+  top: 73vh;
   height: 20vh;
   width: 100vw;
 }
@@ -318,13 +370,22 @@ overflow: hidden;
 .game-card{
   margin: 30rpx;
   position: relative;
-  width: 80vw;
+  width: 90vw;
   padding: 20rpx;
-  border: 5rpx solid black;
+  border: 1rpx solid rgb(169, 169, 169);
+  border-radius: 4rpx;
+}
+
+.game-image{
+  position: absolute;
+  top: 15rpx;
+  left: 15rpx;
+  width: 200rpx;
+  height: 140rpx;
 }
 
 .game-info{
-  display: list-item;
+  display: inline;
   list-style-type: disc;
   list-style-position: inside;
   font-size: 30rpx;
@@ -333,14 +394,18 @@ overflow: hidden;
 
 .game-button{
   position: absolute;
-  right: 30rpx;
-  top: 25rpx;
+  background: linear-gradient(to bottom, rgb(87, 211, 155), rgb(48, 197, 166));
+  letter-spacing: -1rpx;
+  color: rgb(255,255,255);
+  font-weight: bold;
+  right: 25rpx;
+  top: 20rpx;
   width: 100rpx;
   height: 70rpx;
+  padding: 0 20rpx;
   text-align: center;
   line-height: 2;
-  border: 1px solid black;
-  border-radius: 5rpx;
+  border-radius: 70rpx;
 }
 
 /*Tabs  */
@@ -366,10 +431,10 @@ border-top: 1px solid lightgrey;
 }
 
 .tab-active{
-   width: 30vw;
+  width: 30vw;
   background: white;
   font-size: 40rpx;
   text-align: center;
-   font-weight: bold;
-   border-bottom: 1px solid navy;
+  font-weight: bold;
+  border-bottom: 1px solid navy;
 }
