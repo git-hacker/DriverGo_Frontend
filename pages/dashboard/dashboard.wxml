@@ -3,32 +3,44 @@
 <!--LeaderBoard Popup  -->
  <view class="comment-item" bindtap="goLeaderboard">
       <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
-      <view class="comment-head">Fabio</view>
-      <view class="comment-body">{{comment.content}} 
-       
+      <view class="comment-head">Fabio won the xxxxx!</view>
+      <view class="comment-body"> 
+        <view class="comment-leaderboard">Leaderboard</view> 
+         <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right-grey.png"></image> 
       </view>
-        <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image>
+        
      
   </view>
 
 <!--Driver Stats  -->
 <view class="driver-stats-div">
   <view class="progress-bar">
-    <view class="arc" style=" animation:  animix 0.1s 0.15;  animation-fill-mode: forwards; animation-timing-function: ease; transform: rotate(45deg)"></view>
+    <view class="arc" style=" animation:  animix 0.1s 0.75;  animation-fill-mode: forwards; animation-timing-function: ease; transform: rotate(45deg)"></view>
     <view class="progress-level">L4</view>
-    <view class="progress-km"> 34789 KM</view>
+    <view class="progress-km"> 34789</view>
+    <view class="progress-km2"> KM</view>
   </view>
   <view class="stats-list">
-    <view class="stats-points">2574824 P</view>
-    <view class="stats-stations">345 Stations</view>
-    <view class="stats-trips">18 Trips</view>
+    <view class="points-div">
+    <view class="stats-number">2574824</view>
+    <view class="stats-title"> points</view>
+    </view>
+    <view class="points-div">
+      <view class="stats-number">345</view>
+      <view class="stats-title">stations</view>
+     </view>
+    <view class="points-div">
+    <view class="stats-number">18</view>
+    <view class="stats-title">trips</view>
+    </view>
   </view>
 </view>
 
 <!-- Service station  -->
 <view class="station-div">
-  <image class="map-icon" src="/lib/images/map-marker-alt-solid.svg"></image>
-  <view class="station-title">XX Service Station (1458 drivers stopped here)</view>
+  <image class="map-icon" src="/lib/images/location-green.png"></image>
+  <view class="station-title">Sinopec Service Station</view>
+  <view class="station-title2">1458 drivers came here</view>
   <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
 </view>
 
@@ -38,45 +50,60 @@
     <swiper-item>
     <view class="goods-div2">
       <view class="goods-card">
+      <view class="goods-image" style="background-color: lightgrey;"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-color: lightgrey;"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-color: lightgrey;"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
   </view>
   </view>
     </swiper-item>
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
+     <view class="goods-image" style="background-color: lightgrey;"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
   </view>
   <view class="goods-card">
+  <view class="goods-image" style="background-color: lightgrey;"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-color: lightgrey;"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
   </view>
   </view>
   </swiper-item>
   </swiper>
  <!-- </view> -->
 
+<!--Rewards Tag  -->
+
+<view class="rewards-div">
+  <image class="map-icon" src="/lib/images/rewards.png"></image>
+  <view class="rewards-title">Win Rewards Now!</view>
+  </view>
+
+
 <!--Game card  -->
 <view class="game-div">
   <view class="game-card">
+    <view class="game-image" style="background-color: lightgrey;"></view>
     <view class="game-title">Play DriverGo to get rewards</view>
     <view class="game-info">835 drivers played!</view>
-    <view class="game-info">835 drivers played!</view>
-    <view class="game-button">Play</view>
+    <view class="game-info">345 rewards earned!</view>
+    <view class="game-button">PLAY</view>
   </view>
 </view>
 

@@ -1,5 +1,6 @@
 /* pages/dashboard/dashboard.wxss */
 .page {
+   background-color: rgb(255,255,255); 
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -10,6 +11,8 @@
 /*Leaderboard Popup  */
 
   .comment-item{
+    background: rgba(230,230,230, 0.2);
+    border-radius: 5vh;
     position: fixed;
     top: 10vh;
     height: 5vh;
@@ -18,57 +21,74 @@
     align-items: center;
     margin: 0 auto;
     z-index: 1;
-    border: 5rpx solid black;
+    /* border: 5rpx solid black; */
   }
 
   .comment-avatar{
   border-radius: 50%;
+
   height: 60rpx;
   width: 60rpx;
-  background-color: var(--highlight);
-  position: absolute;
 } 
-
-.comment-head {
-  position: absolute;
-  left: 10vw;
-  font-size: 24rpx;
-  width: 80vw;
-  z-index: 1;
-}
-
-.comment-body {
-  background-color: white;
-  min-height: 5vh;
-  /* padding: 15rpx 10rpx 5rpx 10rpx; */
-  width: 80vw;
-  font-size: 24rpx;
-  /* margin-left: 25rpx; */
-  border-radius: 5rpx;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
-  position: relative;
-}
-
 .avatar-box{
-  border: 1px solid white;
-  background-color: lightgrey;
+   /* border: 1px solid white;  */
+  /* background-color: lightgrey; */
+  background: rgba(230,230,230, 0.2);
   border-radius: 50%;
   height: 4vh;
   width: 4vh;
   margin: -5rpx;
   position: absolute;
-  left: 10px;
+  left: 15rpx;
+  top: 12rpx;
   z-index: 1;
 }
+
+.comment-head {
+  color: rgb(230,230,230);
+  background: none;
+  position: absolute;
+  left: 10vw;
+  font-size: 24rpx;
+  width: 60vw;
+  z-index: 1;
+}
+
+.comment-body {
+  background: rgba(230,230,230, 0.2);
+  border-radius: 5vh;
+  /* background-color: white; */
+  min-height: 5vh;
+  /* padding: 15rpx 10rpx 5rpx 10rpx; */
+  width: 80vw;
+  font-size: 24rpx;
+  display: flex;
+  align-items: center;
+  /* margin-left: 25rpx; */
+  /* border-radius: 5rpx; */
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.comment-leaderboard{
+  color: rgb(230,230,230);
+  /* margin-top: 20rpx; */
+   margin-left: 430rpx;
+}
+
 .arrow-icon-leaderboard{
-  height: 3vh;
-  width: 3vw;
-   padding: 10rpx;   
-  background-color: white;
+  color: rgb(230,230,230);
+  background: none;
+  height: 2vh;
+  width: 2vw;
+   /* padding: 10rpx;    */
+  /* margin-top: 20rpx; */
+   margin-left: 20rpx;
 }
 
 /* Driver Stats  */
 .driver-stats-div{
+  background: linear-gradient(to right, rgb(0, 104, 102),  rgb(58, 166, 144));
   position: fixed;
   padding-top: 8vh;
   height: 40vh;
@@ -80,15 +100,15 @@
 .progress-bar{
   position: absolute;
   left: 30vw;
-  top: 18vh;
+  top: 13vh;
   width: 40vw;
   height: 40vw;
-   border: 1px solid black; 
   border-radius: 50%;
+  border: 10rpx solid rgba(230,230,230, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
-   justify-content: center; 
+  justify-content: center; 
   text-align: center;
 }
 /* .arc{
@@ -116,17 +136,17 @@ overflow: hidden;
   position: absolute;
   width: 40vw;
   height: 40vw;
-  top: -5rpx;
+  top: -10rpx;
   right: 50%;
   bottom: 50%; 
-  left: -5rpx; 
+  left: -10rpx; 
   border-radius: 50%;
 	background: transparent;
-	border: 8rpx solid #efefef;
-	border-top-color: #efefef;
-    border-right-color: #efefef;
-    border-bottom-color: #efefef;
-    border-left-color: #efefef;
+	border: 12rpx solid rgb(122, 255, 168);
+	border-top-color: rgb(122, 255, 168);
+    border-right-color: rgb(122, 255, 168);
+    border-bottom-color: rgb(122, 255, 168);
+    border-left-color: rgb(122, 255, 168);
 }
  /* .arc{
         animation:  animix 0.1s 0.60; 
@@ -142,37 +162,54 @@ overflow: hidden;
       border-left-color: transparent;
     }
      25% { 
-       border-top-color: red;
+       border-top-color:rgb(122, 255, 168);
        border-right-color: transparent;
        border-bottom-color: transparent;
        border-left-color: transparent;
      }
      50% { 
-       border-top-color: red;
-       border-right-color: red;
+       border-top-color:rgb(122, 255, 168);
+       border-right-color:rgb(122, 255, 168);
        border-bottom-color: transparent;
        border-left-color: transparent;
      }
      75% { 
-       border-top-color: red;
-       border-right-color: red;
-       border-bottom-color: red;
+       border-top-color:rgb(122, 255, 168);
+       border-right-color:rgb(122, 255, 168);
+       border-bottom-color:rgb(122, 255, 168);
         border-left-color: transparent; 
      }
       100% { 
-       border-top-color: red;
-       border-right-color: red;
-       border-bottom-color: red;
-       border-left-color: red;
+       border-top-color: rgb(122, 255, 168);
+       border-right-color: rgb(122, 255, 168);
+       border-bottom-color: rgb(122, 255, 168);
+       border-left-color: rgb(122, 255, 168);
      } 
    }
 
 .progress-level{
-  font-size: 50rpx;
-  padding-bottom: 30rpx;
+  font-size: 40rpx;
+  color: rgb(230,230,230);
+  font-weight: bold;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 5rpx solid rgba(230,230,230, 0.3);
 }
 
+.progress-km{
+  font-size: 80rpx;
+  color: rgb(230,230,230);
+  letter-spacing: -2rpx;
+}
+
+.progress-km2{
+  font-size: 40rpx;
+  color: rgb(230,230,230);
+}
+
+
 .stats-list{
+  color: rgb(230,230,230);
   position: absolute;
   bottom: 2vh; 
   width: 80vw;
@@ -181,6 +218,25 @@ overflow: hidden;
   align-items: center; 
   justify-content: space-between;
 }
+
+.points-div{
+  display:flex;
+  justify-content: space-between;
+}
+
+.stats-number{
+  color: rgb(230,230,230);
+  font-size: 40rpx;
+  font-weight: bold;
+  letter-spacing: -1rpx;
+}
+
+.stats-title{
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+
 
 /*Station Name  */
 .station-div{
@@ -193,20 +249,33 @@ overflow: hidden;
 }
 
 .map-icon{
-  height: 5vh;
-  width: 5vw;
-  padding: 30rpx;
+  height: 3vh;
+  width: 3vh;
+  padding-left: 20rpx;
 }
+
+.station-title{
+  font-size: 40rpx;
+  letter-spacing: -1rpx;
+  color: #666666;
+}
+
+.station-title2{
+  letter-spacing: -1rpx;
+  font-size: 30rpx;
+  color: rgb(169, 169, 169);
+  margin-left: 20rpx;
+  padding-left: 10rpx;
+  border-left: 1rpx solid rgb(169, 169, 169);
+}
+
 .arrow-icon{
   height: 3vh;
   width: 3vw;
   padding: 30rpx;
-  padding-left: 50rpx;
+  padding-left: 30rpx;
 }
 
-.station-title{
-  font-size: 30rpx;
-}
 
 /*Goods cards  */
 .goods-div{
@@ -217,38 +286,75 @@ overflow: hidden;
   top: 54vh;
   height: 18vh;
   width: 100vw;
+  padding-left: 10vw;
 }
 
 .goods-div2{
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 18vh;
-  width: 100vw;
+  width: 90vw;
 }
 
 .goods-card{
   position: relative;
   /* margin: 30rpx; */
-  width: 25vw;
-  height: 10vh;
-  padding: 20rpx;
-  border: 5rpx solid black;
+  width: 28vw;
+  height: 23vw;
+  /* padding: 20rpx; */
+  border: 1rpx solid rgb(169, 169, 169);
+  border-radius: 4rpx;
+}
+
+.goods-image{
+  position: absolute;
+  top: 7rpx;
+  left: 7rpx;
+  width: 95%;
+  height:70%;
 }
 
 .goods-title{
   position: absolute;
-  top: 60rpx;
-  width: 25vw;
-  left: 0;
-  text-align: center;
+  bottom: 7rpx;
+  color: rgb(140, 140, 140);
+  /* width: 90rpx; */
+  height: 32rpx;
+  font-size: 30rpx;
+  letter-spacing: -1rpx;
+  left: 90rpx;
+   /* text-align: center; */
+    overflow: hidden;  
 }
 
 .goods-points{
+  color: rgb(80, 205, 171);
   position: absolute;
-  bottom: 10rpx;
-  left: 10rpx;
+  font-size: 30rpx;
+  bottom: 7rpx;
+  left: 7rpx;
+}
+
+/*Rewards Tag  */
+
+.rewards-div{
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 70vh;
+}
+
+.rewards-title{
+  font-size: 30rpx;
+  padding-top: 8rpx;
+  padding-left: 10rpx;
+  font-weight: bold;
+  letter-spacing: -1rpx;
+  color: rgb(80, 205, 171);
 }
 
 /*Game card  */
@@ -256,7 +362,7 @@ overflow: hidden;
   position: fixed;
   display: flex;
   justify-content: space-around;
-  top: 72vh;
+  top: 73vh;
   height: 20vh;
   width: 100vw;
 }
@@ -264,13 +370,22 @@ overflow: hidden;
 .game-card{
   margin: 30rpx;
   position: relative;
-  width: 80vw;
+  width: 90vw;
   padding: 20rpx;
-  border: 5rpx solid black;
+  border: 1rpx solid rgb(169, 169, 169);
+  border-radius: 4rpx;
+}
+
+.game-image{
+  position: absolute;
+  top: 15rpx;
+  left: 15rpx;
+  width: 200rpx;
+  height: 140rpx;
 }
 
 .game-info{
-  display: list-item;
+  display: inline;
   list-style-type: disc;
   list-style-position: inside;
   font-size: 30rpx;
@@ -279,14 +394,18 @@ overflow: hidden;
 
 .game-button{
   position: absolute;
-  right: 30rpx;
-  top: 25rpx;
+  background: linear-gradient(to bottom, rgb(87, 211, 155), rgb(48, 197, 166));
+  letter-spacing: -1rpx;
+  color: rgb(255,255,255);
+  font-weight: bold;
+  right: 25rpx;
+  top: 20rpx;
   width: 100rpx;
   height: 70rpx;
+  padding: 0 20rpx;
   text-align: center;
   line-height: 2;
-  border: 1px solid black;
-  border-radius: 5rpx;
+  border-radius: 70rpx;
 }
 
 /*Tabs  */
@@ -312,10 +431,10 @@ border-top: 1px solid lightgrey;
 }
 
 .tab-active{
-   width: 30vw;
+  width: 30vw;
   background: white;
   font-size: 40rpx;
   text-align: center;
-   font-weight: bold;
-   border-bottom: 1px solid navy;
+  font-weight: bold;
+  border-bottom: 1px solid navy;
 }
