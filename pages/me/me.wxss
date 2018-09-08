@@ -65,7 +65,7 @@
   
 }
 .achivemts{
-  position: left;important
+  position: left !important;
 
 }
 
@@ -88,6 +88,7 @@ border-top: 1px solid lightgrey;
 }
 
 .tabs {
+background-color: white;
 position: fixed;
 top: 92vh;
 display: flex;
@@ -107,5 +108,11 @@ border-top: 1px solid lightgrey;
   text-align: center;
 }
 
-.tab text{
+.tab-active{
+  width: 30vw;
+  background: white;
+  font-size: 40rpx;
+  text-align: center;
+   font-weight: bold;
+   border-bottom: 1px solid navy;
 }

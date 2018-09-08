@@ -19,15 +19,15 @@
      <view class='redemption'> redemption</view>
   </view>
     <view class='tabs'>
-<view class="tab" bindtap="goMyPackages">
+<view class="tab" bindtap="goDashboard">
     <text>Dashboard</text>
   </view>
 
-<view class="tab" bindtap="goMyPackages">
+<view class="tab" bindtap="goStore">
     <text>Store</text>
   </view>
 
-<view class="tab" bindtap="goMyPackages">
+<view class="tab-active" >
     <text>Me</text>
   </view>
 </view>
