@@ -5,7 +5,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start;
   padding: 0rpx;
   box-sizing: border-box;
@@ -34,6 +34,7 @@
   height: 290rpx;
   border-radius: 10rpx;
 }
+
 
 .names {
   font-weight: 400;
@@ -66,12 +67,53 @@
   
 }
 .achivemts{
-  position: left !important;
+  
+}
 
+.goods-div{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 18vh;
+  width: 100vw;
+}
+
+.goods-div2{
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 18vh;
+  width: 100vw;
+}
+
+.goods-card{
+  position: relative;
+  /* margin: 30rpx; */
+  width: 25vw;
+  height: 10vh;
+  padding: 20rpx;
+  border: 5rpx solid black;
+  
+}
+
+.goods-title{
+  position: absolute;
+  top: 60rpx;
+  width: 25vw;
+  left: 0;
+  text-align: center;
+}
+
+.goods-points{
+  position: absolute;
+  bottom: 10rpx;
+  left: 10rpx;
 }
 
 .redemption{
-
+  margin-top: 100px;
 }
 
 .stats{
@@ -85,11 +127,9 @@ align-items: center;
 text-align: center;
 z-index: 1;
 border-top: 1px solid lightgrey;
-
 }
 
 .tabs {
-background-color: white;
 position: fixed;
 top: 92vh;
 display: flex;
@@ -109,11 +149,5 @@ border-top: 1px solid lightgrey;
   text-align: center;
 }
 
-.tab-active{
-  width: 30vw;
-  background: white;
-  font-size: 40rpx;
-  text-align: center;
-   font-weight: bold;
-   border-bottom: 1px solid navy;
+.tab text{
 }

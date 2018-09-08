@@ -15,19 +15,92 @@
     </view>
   </view>
   <view class='banner-body'>
-    <view class='achivements'> achivements</view>
-     <view class='redemption'> redemption</view>
+    <view class='achivements'> achivements
+        <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+    </view>
+    
+     <view class='redemption'> redemption
+      <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title">Gas</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">200 P</view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title">Snacks</view>
+    <view class="goods-points">200 P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+     </view>
   </view>
     <view class='tabs'>
-<view class="tab" bindtap="goDashboard">
+<view class="tab" bindtap="goMyPackages">
     <text>Dashboard</text>
   </view>
 
-<view class="tab" bindtap="goStore">
+<view class="tab" bindtap="goMyPackages">
     <text>Store</text>
   </view>
 
-<view class="tab-active" >
+<view class="tab" bindtap="goMyPackages">
     <text>Me</text>
   </view>
 </view>
