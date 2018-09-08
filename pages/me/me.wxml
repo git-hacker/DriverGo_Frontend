@@ -2,21 +2,115 @@
 <view class="container">
   <view class="banner">
     <view class="banner-head">
-      <view class="names"> whatever </view>    
+      <view class='stats'>
+      <view class='username'> Username</view>
+      <view class='distance'> 25467 KM </view>
+      <view class='distance'> 345 Stations </view>
+      <view class='distance'> 18 trips </view>
+    </view>   
       <view class="avatars">
         <view><image class="avatar-banner" src= "{{avatar}}"></image></view>
       </view>
-      <view class="names"> Fabio </view>
+      <view class='bottom-header'>
+        <view class='level'> Level 14 </view>
+        <view class='level'> 22430 Points</view>
+      </view>
     </view>
-    <view class='stats'>
-      <view class='distance'> distance </view>
-      <view class='distance'> stations </view>
-      <view class='distance'> trips </view>
-    </view>
+   
   </view>
+  <view class='banner-2'>
+  I Have Been to
+  <view class='stations'>
+    <view class='station'>
+      Sinopec Service Station
+    </view> 
+    <view class='station'>
+      Longquan Service Station 
+    </view> 
+    <view class='station'>
+      station 3
+    </view> 
+    <view class='station'>
+      station 4
+    </view> 
+  </view>
+  </view>
+
   <view class='banner-body'>
-    <view class='achivements'> achivements</view>
-     <view class='redemption'> redemption</view>
+    <view class='achivements'> My Achivements
+      <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+      <view class="goods-card">
+    <view class="goods-title"></view>
+    <view class="goods-points"></view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title"></view>
+    <view class="goods-points"></view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title"></view>
+    <view class="goods-points"></view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+    <view class="goods-title"></view>
+    <view class="goods-points"></view>
+  </view>
+  <view class="goods-card">
+    <view class="goods-title"></view>
+    <view class="goods-points"></view>
+  </view>
+   <view class="goods-card">
+    <view class="goods-title"></view>
+    <view class="goods-points"></view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+  </view>
+     <view class='redemption'> My Rewards
+      <swiper class="goods-div-redemption" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2-redemption">
+      <view class="goods-card-redemption">
+    <view class="goods-title-redemption">cigarrets</view>
+    <view class="goods-points-redemption"></view>
+  </view>
+   <view class="goods-card-redemption">
+    <view class="goods-title-redemption">oil</view>
+    <view class="goods-points-redemption"></view>
+  </view>
+   <view class="goods-card-redemption">
+    <view class="goods-title-redemption">bum</view>
+    <view class="goods-points-redemption"></view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2-redemption">
+     <view class="goods-card-redemption">
+    <view class="goods-title-redemption"></view>
+    <view class="goods-points-redemption"></view>
+  </view>
+  <view class="goods-card-redemption">
+    <view class="goods-title-redemption"></view>
+    <view class="goods-points-redemption"></view>
+  </view>
+   <view class="goods-card-redemption">
+    <view class="goods-title-redemption"></view>
+    <view class="goods-points-redemption"></view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+     </view>
   </view>
     <view class='tabs'>
 <view class="tab" bindtap="goDashboard">
