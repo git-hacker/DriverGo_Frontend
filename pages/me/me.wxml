@@ -24,11 +24,11 @@
   </view>
 
 <view class="tab" bindtap="goStore">
-    <text>Store</text>
+    <text>Points Store</text>
   </view>
 
 <view class="tab-active" >
-    <text>Me</text>
+    <text>My Profile</text>
   </view>
 </view>
 

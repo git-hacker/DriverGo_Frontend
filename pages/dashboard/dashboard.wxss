@@ -1,6 +1,6 @@
 /* pages/dashboard/dashboard.wxss */
 .page {
-   background-color: rgb(255,255,255); 
+  background-color: rgb(240, 240, 240); 
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,7 +11,7 @@
 /*Leaderboard Popup  */
 
   .comment-item{
-    background: rgba(230,230,230, 0.2);
+    background: rgba(230,230,230, 0.6);
     border-radius: 5vh;
     position: fixed;
     top: 10vh;
@@ -26,14 +26,13 @@
 
   .comment-avatar{
   border-radius: 50%;
-
   height: 60rpx;
   width: 60rpx;
 } 
 .avatar-box{
    /* border: 1px solid white;  */
   /* background-color: lightgrey; */
-  background: rgba(230,230,230, 0.2);
+  background: rgba(230,230,230, 0.6);
   border-radius: 50%;
   height: 4vh;
   width: 4vh;
@@ -45,7 +44,7 @@
 }
 
 .comment-head {
-  color: rgb(230,230,230);
+  color: rgb(38, 38, 38);
   background: none;
   position: absolute;
   left: 10vw;
@@ -55,7 +54,7 @@
 }
 
 .comment-body {
-  background: rgba(230,230,230, 0.2);
+  background: rgba(230,230,230, 0.6);
   border-radius: 5vh;
   /* background-color: white; */
   min-height: 5vh;
@@ -71,19 +70,19 @@
 }
 
 .comment-leaderboard{
-  color: rgb(230,230,230);
+  color: rgb(38, 38, 38);
   /* margin-top: 20rpx; */
    margin-left: 430rpx;
 }
 
 .arrow-icon-leaderboard{
-  color: rgb(230,230,230);
+  color: rgb(38, 38, 38);
   background: none;
   height: 2vh;
   width: 2vw;
    /* padding: 10rpx;    */
   /* margin-top: 20rpx; */
-   margin-left: 20rpx;
+   margin-left: 560rpx;
 }
 
 /* Driver Stats  */
@@ -104,7 +103,7 @@
   width: 40vw;
   height: 40vw;
   border-radius: 50%;
-  border: 10rpx solid rgba(230,230,230, 0.2);
+  border: 10rpx solid rgba(230,230,230, 0.6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,7 +187,7 @@ overflow: hidden;
    }
 
 .progress-level{
-  font-size: 40rpx;
+  font-size: 37rpx;
   color: rgb(230,230,230);
   font-weight: bold;
   padding-bottom: 20rpx;
@@ -203,7 +202,7 @@ overflow: hidden;
 }
 
 .progress-km2{
-  font-size: 40rpx;
+  font-size: 37rpx;
   color: rgb(230,230,230);
 }
 
@@ -226,13 +225,13 @@ overflow: hidden;
 
 .stats-number{
   color: rgb(230,230,230);
-  font-size: 40rpx;
+  font-size: 37rpx;
   font-weight: bold;
   letter-spacing: -1rpx;
 }
 
 .stats-title{
-  font-size: 30rpx;
+  font-size: 27rpx;
   margin-left: 10rpx;
   margin-top: 10rpx;
 }
@@ -255,14 +254,14 @@ overflow: hidden;
 }
 
 .station-title{
-  font-size: 40rpx;
+  font-size: 37rpx;
   letter-spacing: -1rpx;
-  color: #666666;
+  color: rgb(38, 38, 38);
 }
 
 .station-title2{
   letter-spacing: -1rpx;
-  font-size: 30rpx;
+  font-size: 27rpx;
   color: rgb(169, 169, 169);
   margin-left: 20rpx;
   padding-left: 10rpx;
@@ -299,6 +298,7 @@ overflow: hidden;
 }
 
 .goods-card{
+   background: rgb(255,255,255);
   position: relative;
   /* margin: 30rpx; */
   width: 28vw;
@@ -309,6 +309,9 @@ overflow: hidden;
 }
 
 .goods-image{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   top: 7rpx;
   left: 7rpx;
@@ -319,10 +322,10 @@ overflow: hidden;
 .goods-title{
   position: absolute;
   bottom: 7rpx;
-  color: rgb(140, 140, 140);
+  color: rgb(38, 38, 38);
   /* width: 90rpx; */
   height: 32rpx;
-  font-size: 30rpx;
+  font-size: 27rpx;
   letter-spacing: -1rpx;
   left: 90rpx;
    /* text-align: center; */
@@ -332,7 +335,7 @@ overflow: hidden;
 .goods-points{
   color: rgb(80, 205, 171);
   position: absolute;
-  font-size: 30rpx;
+  font-size: 27rpx;
   bottom: 7rpx;
   left: 7rpx;
 }
@@ -349,7 +352,7 @@ overflow: hidden;
 }
 
 .rewards-title{
-  font-size: 30rpx;
+  font-size: 27rpx;
   padding-top: 8rpx;
   padding-left: 10rpx;
   font-weight: bold;
@@ -368,6 +371,7 @@ overflow: hidden;
 }
 
 .game-card{
+  background: rgb(255,255,255);
   margin: 30rpx;
   position: relative;
   width: 90vw;
@@ -377,6 +381,9 @@ overflow: hidden;
 }
 
 .game-image{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   top: 15rpx;
   left: 15rpx;
@@ -384,27 +391,71 @@ overflow: hidden;
   height: 140rpx;
 }
 
+.game-title {
+  color: rgb(38, 38, 38);
+  position: absolute;
+  font-size: 37rpx;
+  font-weight: bold;
+  top: 30rpx;
+  left: 230rpx;
+}
+
+.game-info-div{
+  position: absolute;
+  top: 100rpx;
+  left: 210rpx;
+  display: flex;
+  align-items: center;
+  font-size: 27rpx;
+  width: 500rpx;
+  color: rgb(49,49,49)
+}
+
+.game-spot{
+  height: 25rpx;
+  width: 25rpx;
+  margin-left: 10rpx;
+  background: none;
+}
 .game-info{
-  display: inline;
-  list-style-type: disc;
-  list-style-position: inside;
-  font-size: 30rpx;
-  padding-top: 20rpx;
+  margin-right: 20rpx;
+}
+
+.game-info-div2{
+  position: absolute;
+  bottom: 10rpx;
+  left: 20rpx;
+  display: flex;
+  align-items: center;
+  font-size: 27rpx;
+  width: 90vw;
+  color: rgb(141,141,141)
+}
+
+.game-spot2{
+  background-color: rgb(80, 205, 171);
+  height: 15rpx;
+  width: 15rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+.game-info2{
+  margin-right: 30rpx;
 }
 
 .game-button{
   position: absolute;
   background: linear-gradient(to bottom, rgb(87, 211, 155), rgb(48, 197, 166));
-  letter-spacing: -1rpx;
   color: rgb(255,255,255);
   font-weight: bold;
-  right: 25rpx;
-  top: 20rpx;
+  display: flex;
+  align-items: center;
+  right: 20rpx;
+  top: 15rpx;
   width: 100rpx;
   height: 70rpx;
-  padding: 0 20rpx;
+  padding: 0 20rpx; 
   text-align: center;
-  line-height: 2;
   border-radius: 70rpx;
 }
 
@@ -426,15 +477,15 @@ border-top: 1px solid lightgrey;
 .tab {
   width: 30vw;
   background: white;
-  font-size: 40rpx;
+  font-size: 27rpx;
   text-align: center;
 }
 
 .tab-active{
   width: 30vw;
   background: white;
-  font-size: 40rpx;
+  font-size: 27rpx;
   text-align: center;
   font-weight: bold;
-  border-bottom: 1px solid navy;
+  /* border-bottom: 1px solid navy; */
 }
