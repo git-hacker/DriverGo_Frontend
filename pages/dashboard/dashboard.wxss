@@ -1,4 +1,5 @@
 /* pages/dashboard/dashboard.wxss */
+
 .page {
   background-color: rgb(240, 240, 240); 
   width: 100vw;

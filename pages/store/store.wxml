@@ -1,119 +1,215 @@
 <!--pages/store/store.wxml-->
+<view class="header">Points Store</view>
 <view class='container'>
 
-  <view class='category'> Restaurants
-   <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
- <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
-    <swiper-item>
-    <view class="goods-div2">
-      <view class="goods-card">
-    <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
-  </view>
-   <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
-  </view>
-   <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
-  </view>
-  </view>
-    </swiper-item>
-    <swiper-item>
-    <view class="goods-div2">
-     <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
-  </view>
-  <view class="goods-card">
-    <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
-  </view>
-   <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
-  </view>
-  </view>
-  </swiper-item>
-  </swiper>
-  </view>
+<view class="points-div"> 
+  <view class="points-title">I Have</view>
+  <view class="points">267453 Points</view>
+</view>
 
-  <view class='category'> Insurance
-   <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+<view class="station-div">
+  <image class="map-icon" src="/lib/images/location-green.png"></image>
+  <view class="station-title">Sinopec Service Station</view>
+  <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
+</view>
+  
+  <!--Goods List  -->
+ <swiper class="goods-div1" indicator-dots="{{indicatorDots}}">
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
     <swiper-item>
     <view class="goods-div2">
-      <view class="goods-card">
+    <view class="goods-card">
+    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
   </view>
   </view>
     </swiper-item>
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
+     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
   </view>
   <view class="goods-card">
+  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
   </view>
   </view>
   </swiper-item>
   </swiper>
-  </view>
+ <!-- </view> -->
+  
+<view class="insurance-div">
+  <image class="map-icon-i" src="/lib/images/insurance-icon.png"></image>
+  <view class="station-title">Insurance</view>
+  <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
+</view>
 
-  <view class='category'> Life service
-   <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+  <!--Goods List  -->
+ <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
     <swiper-item>
     <view class="goods-div2">
-      <view class="goods-card">
+    <view class="goods-card">
+    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
   </view>
   </view>
     </swiper-item>
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-    <view class="goods-title">Gas</view>
-    <view class="goods-points">200 P</view>
+     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
   </view>
   <view class="goods-card">
+  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">200 P</view>
+    <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-    <view class="goods-title">Snacks</view>
-    <view class="goods-points">200 P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
   </view>
   </view>
   </swiper-item>
   </swiper>
+ <!-- </view> -->
+
+<view class="maintenance-div">
+  <image class="map-icon" src="/lib/images/maintenance-icon.png"></image>
+  <view class="station-title">Truck Maintenance</view>
+  <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
+</view>
+  
+  <!--Goods List  -->
+ <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+    <view class="goods-card">
+    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">2000P</view>
   </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+  <view class="goods-card">
+  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+ <!-- </view> -->
+
+ <view class="life-div">
+  <image class="map-icon" src="/lib/images/lifeservice-icon.png"></image>
+  <view class="station-title">Life Services</view>
+  <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
+</view>
+  
+  <!--Goods List  -->
+ <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
+ <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
+    <swiper-item>
+    <view class="goods-div2">
+    <view class="goods-card">
+    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+  </view>
+    </swiper-item>
+    <swiper-item>
+    <view class="goods-div2">
+     <view class="goods-card">
+     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+    <view class="goods-title">Gas -3%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+  <view class="goods-card">
+  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -12%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+  </view>
+  </swiper-item>
+  </swiper>
+ <!-- </view> -->
+
+
+
+  <!--Tabs  -->
   <view class='tabs'>
 <view class="tab" bindtap="goDashboard">
     <text>Dashboard</text>
