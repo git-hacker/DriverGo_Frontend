@@ -1,0 +1,44 @@
+<!--pages/map/map.wxml-->
+<view class= "page">
+
+<!--LeaderBoard Popup  -->
+ <view class="comment-item" bindtap="goLeaderboard">
+      <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
+      <view class="comment-head">Fabio</view>
+      <view class="comment-body">{{comment.content}} 
+       
+      </view>
+        <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image>
+     
+  </view>
+
+<!--Driver Stats  -->
+<view class="driver-stats-div">
+  <view class="progress-bar">
+    <view class="arc" style=" animation:  animix 0.1s 0.15;  animation-fill-mode: forwards; animation-timing-function: ease; transform: rotate(45deg)"></view>
+    <view class="progress-level">L4</view>
+    <view class="progress-km"> 34789 KM</view>
+  </view>
+  <view class="stats-list">
+    <view class="stats-points">2574824 P</view>
+    <view class="stats-stations">345 Stations</view>
+    <view class="stats-trips">18 Trips</view>
+  </view>
+</view>
+
+<view class='tabs'>
+ <view class="tab-active"> 
+    <text>Dashboard</text>
+  </view>
+
+<view class="tab" bindtap="goStore">
+    <text>Store</text>
+  </view>
+
+<view class="tab" bindtap="goMe">
+    <text>Me</text>
+  </view>
+
+</view>
+
+</view>

@@ -1,5 +1,16 @@
 <view class= "page">
 
+<!--LeaderBoard Popup  -->
+ <view class="comment-item" bindtap="goLeaderboard">
+      <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
+      <view class="comment-head">Fabio</view>
+      <view class="comment-body">{{comment.content}} 
+       
+      </view>
+        <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image>
+     
+  </view>
+
 <!--Driver Stats  -->
 <view class="driver-stats-div">
   <view class="progress-bar">
