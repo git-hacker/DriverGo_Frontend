@@ -1,4 +1,4 @@
-/* pages/dashboard/dashboard.wxss */
+/* pages/map/map.wxss */
 .page {
   width: 100vw;
   height: 100vh;
@@ -67,7 +67,8 @@
   background-color: white;
 }
 
-/* Driver Stats  */
+/*driver stats  */
+
 .driver-stats-div{
   position: fixed;
   padding-top: 8vh;
@@ -180,113 +181,6 @@ overflow: hidden;
   display: flex;
   align-items: center; 
   justify-content: space-between;
-}
-
-/*Station Name  */
-.station-div{
-  height: 5vh;
-  width: 100vw;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  top: 50vh;
-}
-
-.map-icon{
-  height: 5vh;
-  width: 5vw;
-  padding: 30rpx;
-}
-.arrow-icon{
-  height: 3vh;
-  width: 3vw;
-  padding: 30rpx;
-  padding-left: 50rpx;
-}
-
-.station-title{
-  font-size: 30rpx;
-}
-
-/*Goods cards  */
-.goods-div{
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  top: 54vh;
-  height: 18vh;
-  width: 100vw;
-}
-
-.goods-div2{
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 18vh;
-  width: 100vw;
-}
-
-.goods-card{
-  position: relative;
-  /* margin: 30rpx; */
-  width: 25vw;
-  height: 10vh;
-  padding: 20rpx;
-  border: 5rpx solid black;
-}
-
-.goods-title{
-  position: absolute;
-  top: 60rpx;
-  width: 25vw;
-  left: 0;
-  text-align: center;
-}
-
-.goods-points{
-  position: absolute;
-  bottom: 10rpx;
-  left: 10rpx;
-}
-
-/*Game card  */
-.game-div{
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  top: 72vh;
-  height: 20vh;
-  width: 100vw;
-}
-
-.game-card{
-  margin: 30rpx;
-  position: relative;
-  width: 80vw;
-  padding: 20rpx;
-  border: 5rpx solid black;
-}
-
-.game-info{
-  display: list-item;
-  list-style-type: disc;
-  list-style-position: inside;
-  font-size: 30rpx;
-  padding-top: 20rpx;
-}
-
-.game-button{
-  position: absolute;
-  right: 30rpx;
-  top: 25rpx;
-  width: 100rpx;
-  height: 70rpx;
-  text-align: center;
-  line-height: 2;
-  border: 1px solid black;
-  border-radius: 5rpx;
 }
 
 /*Tabs  */

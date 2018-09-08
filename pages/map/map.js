@@ -1,4 +1,4 @@
-// pages/dashboard/dashboard.js
+// pages/map/map.js
 Page({
 
   /**

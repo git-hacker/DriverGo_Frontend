@@ -5,12 +5,14 @@
     "login/login/login",
     "pages/leaderboard/leaderboard",
     "pages/store/store",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/map/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "DriverGo",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "#fff",
+    "navigationStyle": "custom"
   }
 }
