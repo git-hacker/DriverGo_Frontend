@@ -3,10 +3,10 @@
 <!--LeaderBoard Popup  -->
  <view class="comment-item" bindtap="goLeaderboard">
       <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
-      <view class="comment-head">Fabio won the xxxxx!</view>
+      <view class="comment-head">Fabio won the Champion Reward!</view>
       <view class="comment-body"> 
-        <view class="comment-leaderboard">Leaderboard</view> 
-         <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right-grey.png"></image> 
+        <!-- <view class="comment-leaderboard">          </view>  -->
+         <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image> 
       </view>
         
      
@@ -49,18 +49,18 @@
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
     <swiper-item>
     <view class="goods-div2">
-      <view class="goods-card">
-      <view class="goods-image" style="background-color: lightgrey;"></view>
+    <view class="goods-card">
+    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-color: lightgrey;"></view>
+   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
     <view class="goods-title">Gas -3%</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-color: lightgrey;"></view>
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
     <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
   </view>
@@ -69,17 +69,17 @@
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-     <view class="goods-image" style="background-color: lightgrey;"></view>
+     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
     <view class="goods-title">Gas -3%</view>
     <view class="goods-points">2000P</view>
   </view>
   <view class="goods-card">
-  <view class="goods-image" style="background-color: lightgrey;"></view>
+  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-color: lightgrey;"></view>
+   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
     <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
   </view>
@@ -99,11 +99,21 @@
 <!--Game card  -->
 <view class="game-div">
   <view class="game-card">
-    <view class="game-image" style="background-color: lightgrey;"></view>
-    <view class="game-title">Play DriverGo to get rewards</view>
-    <view class="game-info">835 drivers played!</view>
-    <view class="game-info">345 rewards earned!</view>
-    <view class="game-button">PLAY</view>
+    <view class="game-image" style="background-image: url(/lib/images/truck.png);"></view>
+    <view class="game-title">Truckathon</view>
+     <view class="game-info-div">
+      <image class="game-spot" src="/lib/images/gift.png"></image>
+      <view class="game-info">100000 points</view>
+      <image class="game-spot" src="/lib/images/cup.png"></image>
+      <view class="game-info">Annual Insurance</view>
+    </view>
+    <view class="game-info-div2">
+    <view class="game-spot2" style=""></view>
+    <view class="game-info2">835 drivers played!</view>
+    <view class="game-spot2" style=""></view>
+    <view class="game-info2">345 rewards earned!</view>
+    </view>
+    <view class="game-button"><view>PLAY</view></view>
   </view>
 </view>
 
@@ -114,11 +124,11 @@
   </view>
 
 <view class="tab" bindtap="goStore">
-    <text>Store</text>
+    <text>Points Store</text>
   </view>
 
 <view class="tab" bindtap="goMe">
-    <text>Me</text>
+    <text>My Profile</text>
   </view>
 </view>
 </view>

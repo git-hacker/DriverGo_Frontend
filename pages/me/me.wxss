@@ -105,15 +105,15 @@ border-top: 1px solid lightgrey;
 .tab {
   width: 30vw;
   background: white;
-  font-size: 40rpx;
+  font-size: 30rpx;
   text-align: center;
 }
 
 .tab-active{
   width: 30vw;
   background: white;
-  font-size: 40rpx;
+  font-size: 30rpx;
   text-align: center;
-   font-weight: bold;
-   border-bottom: 1px solid navy;
+  font-weight: bold;
+  /* border-bottom: 1px solid navy; */
 }
