@@ -8,6 +8,12 @@ Page({
   
   },
 
+  goDashboard: function () {
+    wx.reLaunch({
+      url: '/pages/dashboard/dashboard'
+    })
+  },
+
   goStore: function () {
     wx.reLaunch({
       url: '/pages/store/store'

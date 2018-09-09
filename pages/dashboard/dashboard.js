@@ -10,6 +10,12 @@ Page({
   
   },
 
+  goMap: function () {
+    wx.reLaunch({
+      url: '/pages/map/map'
+    })
+  },
+
   goStore: function () {
     wx.reLaunch({
       url: '/pages/store/store'
