@@ -4,9 +4,9 @@
     <view class="banner-head">
       <view class="names"> whatever </view>    
       <view class="avatars">
-        <view><image class="avatar-banner" src= "{{avatar}}"></image></view>
+        <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
       </view>
-      <view class="names"> Fabio </view>
+      <view class="names"> {{nickname}} </view>
     </view>
   </view>
 
@@ -15,7 +15,7 @@
  
     <view class="comment-item">
       <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
-      <view class="comment-head">Fabio</view>
+      <view class="comment-head">{{nickname}}</view>
       <view class="comment-body">{{comment.content}}</view>
     </view> 
   </view>
