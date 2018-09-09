@@ -40,6 +40,63 @@ Page({
       nickname: app.globalData.userInfo.nickName,
       avatar_url: app.globalData.userInfo.avatarUrl
     })
+    let that = this
+    myRequest.get({
+      path: "users/" + getApp().globalData.userId,
+      success: function (res) {
+        let km = res.data.total_distance
+        let level = 1
+        if (km<1000)
+        {
+          
+        }
+        else if (km>=1000 && km < 2000)
+        {
+          level = 2
+        }
+        else if (km<3000 && km>=2000)
+        {
+          level = 3
+        }
+        else if(km >= 3000 && km<4000)
+        {
+          level = 4
+        }
+        else if (km >= 4000 && km < 5000)
+        {
+          level = 5
+        }
+        else if (km >= 5000 && km < 6000) {
+          level = 6
+        }
+
+        else if (km >= 6000 && km < 7000) {
+          level = 7
+        }
+        else if (km >= 7000 && km < 8000) {
+          level = 8
+        }
+        else if (km >= 8000 && km < 9000) {
+          level = 9
+        }
+        else if (km >= 9000 && km < 10000) {
+          level = 10
+        }
+        that.setData({
+          level: level
+        })
+        myRequest.put({
+          path: "users/" + getApp().globalData.userId ,
+          data: {
+            level:that.data.level
+          },
+          success: function (res) {
+            console.log(6666,that.data.level)
+          }
+        })
+
+      }
+    })
     
     this.postCurrentLocation()
     setInterval(this.postCurrentLocation, 60000)
@@ -66,8 +123,9 @@ Page({
               path: "users/" + getApp().globalData.userId,
               success: function(res){
                 let distance = parseFloat(Math.round(res.data.total_distance * 100) / 100).toFixed(2);                app.globalData.distance = distance
+                console.log(res.data.level)
                 that.setData({
-                  distance: distance
+                  distance: distance,
                 })
               }
             })
