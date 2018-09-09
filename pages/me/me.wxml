@@ -5,13 +5,12 @@
       <view class='stats'>
       <view class='username'> {{nickname}}</view>
 
-      <!-- <view class="game-spot2" style=""></view> -->
-      <!-- <view class="game-spot2" style=""></view> -->
-
-      <view class='distance'> {{distance}} KM </view>
+      <view class="game-spot2" style=""></view>
+        <view class='distance'> {{distance}} KM </view>
+       <view class="game-spot2" style=""></view>
 
       <view class='distance'> 345 Stations </view>
-      <!-- <view class="game-spot2" style=""></view> -->
+      <view class="game-spot2" style=""></view>
       <view class='distance'> 18 trips </view>
     </view>   
       <view class="avatars">
@@ -69,14 +68,17 @@
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
+     <image class='goods-image' src= "/lib/images/grey-badge.png"></image>
     <view class="goods-title"></view>
     <view class="goods-points"></view>
   </view>
   <view class="goods-card">
+    <image class='goods-image' src= "/lib/images/grey-badge.png"></image>
     <view class="goods-title"></view>
     <view class="goods-points"></view>
   </view>
    <view class="goods-card">
+   <image class='goods-image' src= "/lib/images/Grey-badge.png"></image>
     <view class="goods-title"></view>
     <view class="goods-points"></view>
   </view>
@@ -112,16 +114,19 @@
     <swiper-item>
     <view class="goods-div2-redemption">
      <view class="goods-card-redemption">
-    <view class="goods-title-redemption"></view>
-    <view class="goods-points-redemption"></view>
+     <image  class='goods-image' src= "/lib/images/cigarettes.png"></image>
+    <view class="goods-title-redemption">Cigarretes</view>
+    <view class="goods-subtitle-redemption">Redeemed</view>
   </view>
   <view class="goods-card-redemption">
-    <view class="goods-title-redemption"></view>
-    <view class="goods-points-redemption"></view>
+  <image  class='goods-image' src= "/lib/images/cigarettes.png"></image>
+    <view class="goods-title-redemption">Cigarretes</view>
+    <view class="goods-subtitle-redemption">Redeemed</view>
   </view>
    <view class="goods-card-redemption">
-    <view class="goods-title-redemption"></view>
-    <view class="goods-points-redemption"></view>
+   <image  class='goods-image' src= "/lib/images/cigarettes.png"></image>
+    <view class="goods-title-redemption">Cigarretes</view>
+    <view class="goods-subtitle-redemption">Redeemed</view>
   </view>
   </view>
   </swiper-item>
