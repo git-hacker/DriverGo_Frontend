@@ -11,7 +11,7 @@
       </view>
 
       <view class="game-info-div2">
-                <view class="names"> Fabio </view>
+                <view class="names"> {{nickname}} </view>
                 <view class="game-spot2" style=""></view>
                 <view class="game-info2">13257285 KM</view>
                 <view class="game-spot2" style=""></view>

@@ -22,11 +22,23 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let that = this
+    myRequest.get({
+      path: "users",
+      success: function(res){
+        console.log(res.data)
+        that.setData({
+          users: res.data
+        })
+      }
+    })
     this.setData({
       nickname: app.globalData.userInfo.nickName,
       avatar_url: app.globalData.userInfo.avatarUrl
     })
+
   },
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成
