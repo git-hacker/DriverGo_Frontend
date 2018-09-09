@@ -21,12 +21,12 @@
     <view class="goods-card">
     <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-points">800P</view>
   </view>
    <view class="goods-card">
    <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
     <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-points">3000P</view>
   </view>
    <view class="goods-card">
    <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
@@ -40,12 +40,12 @@
      <view class="goods-card">
      <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
     <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-points">3000P</view>
   </view>
   <view class="goods-card">
   <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-points">800P</view>
   </view>
    <view class="goods-card">
    <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
@@ -69,38 +69,38 @@
     <swiper-item>
     <view class="goods-div2">
     <view class="goods-card">
-    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
-    <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-image" style="background-image: url(/lib/images/coins.png);"></view>
+    <view class="goods-title">Annual</view>
+    <view class="goods-points">30000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
-    <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/discount.png);"></view>
+    <view class="goods-title">-15%</view>
+    <view class="goods-points">8000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
-    <view class="goods-title">Motel -12%</view>
-    <view class="goods-points">2000P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/cog.png);"></view>
+    <view class="goods-title"> -12%</view>
+    <view class="goods-points">6000P</view>
   </view>
   </view>
     </swiper-item>
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
-    <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
+     <view class="goods-image" style="background-image: url(/lib/images/discount.png);"></view>
+    <view class="goods-title">-15%</view>
+    <view class="goods-points">8000P</view>
   </view>
   <view class="goods-card">
-  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
-    <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">2000P</view>
+  <view class="goods-image" style="background-image: url(/lib/images/cog.png);"></view>
+    <view class="goods-title">-8%</view>
+    <view class="goods-points">6000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
-    <view class="goods-title">Motel -12%</view>
-    <view class="goods-points">2000P</view>
+   <view class="goods-image" style="background-image: url(/lib/images/coins.png);"></view>
+    <view class="goods-title">Annual</view>
+    <view class="goods-points">30000P</view>
   </view>
   </view>
   </swiper-item>
@@ -119,18 +119,18 @@
     <swiper-item>
     <view class="goods-div2">
     <view class="goods-card">
-    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
-    <view class="goods-title">Cigarettes</view>
+    <view class="goods-image" style="background-image: url(/lib/images/credit-card.png);"></view>
+    <view class="goods-title">Single</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+   <view class="goods-image" style="background-image: url(/lib/images/gas-station.png);"></view>
+    <view class="goods-title">Gas -5%</view>
+    <view class="goods-points">4000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/cnooc.png);"></view>
     <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
-  </view>
-   <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
-    <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
   </view>
   </view>
@@ -138,18 +138,18 @@
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+     <view class="goods-image" style="background-image: url(/lib/images/cnooc.png);"></view>
     <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-points">3000P</view>
   </view>
   <view class="goods-card">
-  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
-    <view class="goods-title">Cigarettes</view>
+  <view class="goods-image" style="background-image: url(/lib/images/credit-card.png);"></view>
+    <view class="goods-title">Single</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
-    <view class="goods-title">Motel -12%</view>
+   <view class="goods-image" style="background-image: url(/lib/images/gas-station.png);"></view>
+    <view class="goods-title">Gas -5%</view>
     <view class="goods-points">2000P</view>
   </view>
   </view>
@@ -169,37 +169,37 @@
     <swiper-item>
     <view class="goods-div2">
     <view class="goods-card">
-    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -15%</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/hotpot.png);"></view>
+    <view class="goods-title">Hotpot</view>
+    <view class="goods-points">2000P</view>
+  </view>
+   <view class="goods-card">
+   <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
     <view class="goods-title">Cigarettes</view>
-    <view class="goods-points">2000P</view>
-  </view>
-   <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
-    <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
-  </view>
-   <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
-    <view class="goods-title">Motel -12%</view>
-    <view class="goods-points">2000P</view>
+    <view class="goods-points">800P</view>
   </view>
   </view>
     </swiper-item>
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
-    <view class="goods-title">Gas -3%</view>
-    <view class="goods-points">2000P</view>
+     <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <view class="goods-title">Cigarettes</view>
+    <view class="goods-points">800P</view>
   </view>
   <view class="goods-card">
-  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
-    <view class="goods-title">Cigarettes</view>
+  <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+    <view class="goods-title">Motel -15%</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
-    <view class="goods-title">Motel -12%</view>
+   <view class="goods-image" style="background-image: url(/lib/images/hotpot.png);"></view>
+    <view class="goods-title">Hotpot</view>
     <view class="goods-points">2000P</view>
   </view>
   </view>

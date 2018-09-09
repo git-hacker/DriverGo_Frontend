@@ -8,8 +8,6 @@
         <!-- <view class="comment-leaderboard">          </view>  -->
          <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image> 
       </view>
-        
-     
   </view>
 
 <!--Driver Stats  -->
