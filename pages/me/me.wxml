@@ -12,7 +12,7 @@
         <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
       </view>
       <view class='bottom-header'>
-        <view class='level'> Level 14 </view>
+        <view class='level'> Level {{level}} </view>
         <view class='level'> 22430 Points</view>
       </view>
     </view>
