@@ -71,7 +71,7 @@ Page({
       nickname: app.globalData.userInfo.nickName,
       avatar_url: app.globalData.userInfo.avatarUrl
     })
-    let that = this
+    let wow = this
     myRequest.get({
       path: "users/" + getApp().globalData.userId,
       success: function (res) {
@@ -113,13 +113,13 @@ Page({
         else if (km >= 9000 && km < 10000) {
           level = 10
         }
-        that.setData({
+        wow.setData({
           level: level
         })
         myRequest.put({
           path: "users/" + getApp().globalData.userId ,
           data: {
-            level:that.data.level
+            level:wow.data.level
           },
           success: function (res) {
             app.globalData.level = res.data.level
