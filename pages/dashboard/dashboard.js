@@ -65,7 +65,7 @@ Page({
             myRequest.get({
               path: "users/" + getApp().globalData.userId,
               success: function(res){
-                let distance = parseFloat(Math.round(res.data.total_distance * 100) / 100).toFixed(2);
+                let distance = parseFloat(Math.round(res.data.total_distance * 100) / 100).toFixed(2);                app.globalData.distance = distance
                 that.setData({
                   distance: distance
                 })
