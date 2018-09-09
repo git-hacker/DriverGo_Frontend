@@ -5,7 +5,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    markers: [{
+      iconPath: "/lib/images/location-green.png",
+      id: 0,
+      latitude: 23.099994,
+      longitude: 113.324520,
+      width: 30,
+      height: 30
+    },
+      {
+        iconPath: "/lib/images/location-green.png",
+        id: 0,
+        latitude: 23.0875394,
+        longitude: 113.354520,
+        width: 30,
+        height: 30
+      },
+      {
+        iconPath: "/lib/images/location-green.png",
+        id: 0,
+        latitude: 23.0775394,
+        longitude: 113.314520,
+        width: 30,
+        height: 30
+      }],
+  },
+
+  markertap(e) {
+    wx.reLaunch({
+      url: '/pages/dashboard/dashboard'
+    })
   },
 
   goDashboard: function () {

@@ -1,4 +1,15 @@
 /* pages/map/map.wxss */
+.header{
+  text-align: center;
+  height: 9vh;
+  width: 100vw;
+  /* padding-top: 4vh; */
+  color: rgb(240,240,240);
+  font-weight: bold;
+  /* background: linear-gradient(to right, rgb(0, 104, 102),  rgb(58, 166, 144)); */
+  z-index: 1;
+}
+
 .page {
   background-color: rgb(240, 240, 240); 
   width: 100vw;
@@ -234,6 +245,14 @@ overflow: hidden;
   font-size: 27rpx;
   margin-left: 10rpx;
   margin-top: 10rpx;
+}
+
+/*map-div  */
+.map-div{
+  height: 44vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 8vh;
 }
 
 /*Tabs  */
