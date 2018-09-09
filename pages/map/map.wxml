@@ -1,14 +1,14 @@
 <!--pages/map/map.wxml-->
+<view class="header">Map</view>
 <view class= "page">
 <!--LeaderBoard Popup  -->
- <view class="comment-item" bindtap="goLeaderboard">
+ <!-- <view class="comment-item" bindtap="goLeaderboard">
       <view class="avatar-box"><image class='comment-avatar' src= "{{avatar_url}}" > </image></view>
       <view class="comment-head">{{nickname}} won the Champion Reward!</view>
       <view class="comment-body"> 
-        <!-- <view class="comment-leaderboard">          </view>  -->
          <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image> 
       </view>
-  </view>
+  </view> -->
 
 <!--Driver Stats  -->
 <view class="driver-stats-div">
@@ -35,7 +35,9 @@
 </view>
 
 <!--Map  -->
-<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 60vh;"></map>
+<view class="map-div">
+<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 50vh;"></map>
+</view>
 
 <view class='tabs'>
  <view class="tab" bindtap="goDashboard"> 
