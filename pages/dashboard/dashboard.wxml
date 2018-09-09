@@ -35,7 +35,7 @@
 </view>
 
 <!-- Service station  -->
-<view class="station-div">
+<view class="station-div" bindtap="goMap">
   <image class="map-icon" src="/lib/images/location-green.png"></image>
   <view class="station-title">Sinopec Service Station</view>
   <view class="station-title2">1458 drivers came here</view>
@@ -48,17 +48,17 @@
     <swiper-item>
     <view class="goods-div2">
     <view class="goods-card">
-    <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+    <image class="goods-image" src="/lib/images/cigarettes.png"></image>
     <view class="goods-title">Cigarettes</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+   <image class="goods-image" src="/lib/images/Sinopec.jpg"></image>
     <view class="goods-title">Gas -3%</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+   <image class="goods-image" src="/lib/images/motel.png"></image>
     <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
   </view>
@@ -67,17 +67,17 @@
     <swiper-item>
     <view class="goods-div2">
      <view class="goods-card">
-     <view class="goods-image" style="background-image: url(/lib/images/Sinopec.jpg);"></view>
+     <image class="goods-image" src="/lib/images/Sinopec.jpg"></image>
     <view class="goods-title">Gas -3%</view>
     <view class="goods-points">2000P</view>
   </view>
   <view class="goods-card">
-  <view class="goods-image" style="background-image: url(/lib/images/cigarettes.png);"></view>
+  <image class="goods-image" src="/lib/images/cigarettes.png"></image>
     <view class="goods-title">Cigarettes</view>
     <view class="goods-points">2000P</view>
   </view>
    <view class="goods-card">
-   <view class="goods-image" style="background-image: url(/lib/images/motel.png);"></view>
+   <image class="goods-image" src="/lib/images/motel.png"></image>
     <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
   </view>
@@ -97,7 +97,7 @@
 <!--Game card  -->
 <view class="game-div">
   <view class="game-card">
-    <view class="game-image" style="background-image: url(/lib/images/truck.png);"></view>
+     <image class="game-image" src="/lib/images/truck.png"></image>  
     <view class="game-title">Truckathon</view>
      <view class="game-info-div">
       <image class="game-spot" src="/lib/images/gift.png"></image>

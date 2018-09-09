@@ -25,6 +25,7 @@
   </view>
 
   <view class='comments-container'>
+  
     <view class="comment-div">
     <view class="rank-num">2</view>
       <view class="comment-item">

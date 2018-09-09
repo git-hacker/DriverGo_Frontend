@@ -22,7 +22,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const host = 'http://localhost:3000/'
+    const host = 'http://192.168.100.240:3001/'
     console.log('processing to login')
     const that = this
     wx.login({

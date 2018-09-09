@@ -477,6 +477,7 @@ border-top: 1px solid lightgrey;
 
 .tab {
   width: 30vw;
+  padding: 20rpx;
   background: white;
   font-size: 27rpx;
   text-align: center;
