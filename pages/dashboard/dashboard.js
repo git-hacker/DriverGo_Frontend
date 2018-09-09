@@ -40,8 +40,42 @@ Page({
       nickname: app.globalData.userInfo.nickName,
       avatar_url: app.globalData.userInfo.avatarUrl
     })
+    
+    this.postCurrentLocation()
+    setInterval(this.postCurrentLocation, 60000)
+    
   },
 
+  postCurrentLocation: function(){
+    
+    let that = this
+    wx.getLocation({
+      success: function (res) {
+        let latitude = res.latitude;
+        let longitude = res.longitude;
+        console.log(latitude)
+        console.log(longitude)
+        myRequest.post({
+          path: "users/"+getApp().globalData.userId + "/locations",
+          data:{
+            latitude: latitude,
+            longitude: longitude
+          },
+          success: function(res){
+            myRequest.get({
+              path: "users/" + getApp().globalData.userId,
+              success: function(res){
+                let distance = parseFloat(Math.round(res.data.total_distance * 100) / 100).toFixed(2);
+                that.setData({
+                  distance: distance
+                })
+              }
+            })
+          }
+        })
+      },
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
