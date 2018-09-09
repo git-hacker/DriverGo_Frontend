@@ -37,6 +37,10 @@
   border-radius: 10rpx;
   border-bottom: 1px solid lightgrey;
 }
+.bullet-banner{
+  display: flex;
+}
+
 
 .points {
   position: absolute;
