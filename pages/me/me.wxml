@@ -3,13 +3,13 @@
   <view class="banner">
     <view class="banner-head">
       <view class='stats'>
-      <view class='username'> Username</view>
+      <view class='username'> {{nickname}}</view>
       <view class='distance'> 25467 KM </view>
       <view class='distance'> 345 Stations </view>
       <view class='distance'> 18 trips </view>
     </view>   
       <view class="avatars">
-        <view><image class="avatar-banner" src= "{{avatar}}"></image></view>
+        <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
       </view>
       <view class='bottom-header'>
         <view class='level'> Level 14 </view>
