@@ -7,8 +7,9 @@
     <view class="banner-head">
       <view class="title"> Champion Oct. </view>    
       <view class="avatars">
-        <view><image class="avatar-banner" src= "{{avatar}}"></image></view>
+        <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
       </view>
+
       <view class="game-info-div2">
                 <view class="names"> Fabio </view>
                 <view class="game-spot2" style=""></view>
