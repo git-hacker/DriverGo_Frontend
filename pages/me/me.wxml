@@ -4,9 +4,11 @@
     <view class="banner-head">
       <view class='stats'>
       <view class='username'> {{nickname}}</view>
+
       <view class="game-spot2" style=""></view>
         <view class='distance'> {{distance}} KM </view>
        <view class="game-spot2" style=""></view>
+
       <view class='distance'> 345 Stations </view>
       <view class="game-spot2" style=""></view>
       <view class='distance'> 18 trips </view>
