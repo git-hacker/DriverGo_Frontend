@@ -25,6 +25,43 @@
   border-radius: 10rpx;
 }
 
+.goods-image{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20rpx;
+  width: 30vw;
+  height:20vw;
+}
+
+.points-div{
+  /* display: flex; */
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+  height: 9vh;
+  /* width: 40vw; */
+  /* justify-content: space-between; */
+  border-bottom: 3rpx solid lightgrey;
+}
+
+.points-title{
+  font-size: 37rpx;
+  font-weight: bold;
+  margin-left: 200rpx;
+  margin-top: 50rpx;
+}
+
+.points{
+  letter-spacing: -1rpx;
+  margin-top: 10rpx;
+  font-size: 37rpx;
+  font-weight: bold;
+  margin-left: 200rpx; 
+  color: rgb(80, 205, 171);
+}
+
 .qr{
   position: absolute;
   bottom: 2vw;

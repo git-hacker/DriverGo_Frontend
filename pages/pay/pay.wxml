@@ -4,6 +4,11 @@
 <image class="back-icon" src="/lib/images/back-arrow-white.png" bindtap="goDashboard"></image> 
 
 <view class="pay-div">
+  <image class="goods-image" src="/lib/images/coins.png"></image>
+  <view class="points-div"> 
+  <view class="points-title">Annual Insurance</view>
+  <view class="points">20 000 Points</view>
+</view>
   <image class= "qr" src="/lib/images/qr.png"></image>
 </view>
 
