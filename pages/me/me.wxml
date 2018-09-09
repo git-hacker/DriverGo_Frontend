@@ -4,14 +4,19 @@
     <view class="banner-head">
       <view class='stats'>
       <view class='username'> {{nickname}}</view>
-
-      <view class="game-spot2" style=""></view>
+      <view class='bullet-banner'>
+        <view class="game-spot2" style=""></view>
         <view class='distance'> {{distance}} KM </view>
-       <view class="game-spot2" style=""></view>
+      </view>
 
-      <view class='distance'> 345 Stations </view>
-      <view class="game-spot2" style=""></view>
-      <view class='distance'> 18 trips </view>
+      <view class='bullet-banner'>
+        <view class="game-spot2" style=""></view>
+        <view class='distance'> 345 Stations </view>
+      </view>
+      <view class='bullet-banner'>
+        <view class="game-spot2" style=""></view>
+        <view class='distance'> 18 trips </view>
+      </view>
     </view>   
       <view class="avatars">
         <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
