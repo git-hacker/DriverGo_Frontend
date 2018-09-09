@@ -27,7 +27,8 @@ Page({
     console.log(app.globalData.userInfo)
     this.setData({
       nickname: app.globalData.userInfo.nickName,
-      avatar_url: app.globalData.userInfo.avatarUrl
+      avatar_url: app.globalData.userInfo.avatarUrl,
+      distance: app.globalData.distance
     })
   },
 
