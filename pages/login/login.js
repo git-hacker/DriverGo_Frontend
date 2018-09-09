@@ -22,10 +22,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const host = 'http://localhost:3000/'
+    const host = 'http://192.168.100.240:3001/'
     console.log('processing to login')
     const that = this
     wx.login({
+      fail: res => {
+        console.log("Big fail");
+        console.log(res);
+      },
       success: res => {
         console.log(res)
         wx.request({
@@ -40,6 +44,10 @@ Page({
             that.setData({
               buttonClickable:true
             })
+          },
+          fail: res => {
+            console.log("Login request failed");
+            console.log(res);
           }
         })
       }
