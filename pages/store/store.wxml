@@ -4,7 +4,7 @@
 
 <view class="points-div"> 
   <view class="points-title">I Have</view>
-  <view class="points">267453 Points</view>
+  <view class="points">{{points}} Points</view>
 </view>
 
 <view class="station-div">

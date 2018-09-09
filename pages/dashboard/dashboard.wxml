@@ -20,7 +20,7 @@
   </view>
   <view class="stats-list">
     <view class="points-div">
-    <view class="stats-number">2574824</view>
+    <view class="stats-number">{{points}}</view>
     <view class="stats-title"> points</view>
     </view>
     <view class="points-div">

@@ -119,10 +119,15 @@ Page({
         myRequest.put({
           path: "users/" + getApp().globalData.userId ,
           data: {
-            level:wow.data.level
+            level:wow.data.level,
+            points: (wow.data.level-1)*600
           },
           success: function (res) {
             app.globalData.level = res.data.level
+            app.globalData.points = (res.data.level-1) *600
+            wow.setData({
+              points: app.globalData.points
+            })
           }
         })
 
