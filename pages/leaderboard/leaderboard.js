@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    rank: [2,3,4,5,6,7,8,9,10,11,12,13,14,15],
   },
 
   goDashboard: function () {
@@ -16,18 +16,28 @@ Page({
     })
   },
 
-
+   
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    function roundToTwo(num) {
+      return +(Math.round(num + "e+2") + "e-2")
+    }
     let that = this
     myRequest.get({
       path: "users",
       success: function(res){
-        console.log(res.data)
+        console.log(111, res.data)
+        let resData = res.data.forEach(function(e) {
+          let shortNum = parseFloat(e.total_distance)
+          let newDist = roundToTwo(shortNum)
+          e.total_distance = newDist
+        })
+        console.log(333, res.data)
         that.setData({
+          firstUser: res.data.shift(),
           users: res.data
         })
       }
