@@ -122,7 +122,7 @@ Page({
             level:that.data.level
           },
           success: function (res) {
-            console.log(6666,that.data.level)
+            app.globalData.level = res.data.level
           }
         })
 

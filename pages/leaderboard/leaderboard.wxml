@@ -15,7 +15,7 @@
                 <view class="game-spot2" style=""></view>
                 <view class="game-info2">{{firstUser.total_distance}} KM</view>
                 <view class="game-spot2" style=""></view>
-                <view class="game-info2">L20</view>
+                <view class="game-info2">L{{level}}</view>
       </view>
       <view class="rewards-div">
             <image class="map-icon" src="/lib/images/gift.png"></image>
