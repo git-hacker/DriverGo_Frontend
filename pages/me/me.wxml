@@ -6,7 +6,6 @@
       <view class='username'> {{nickname}}</view>
 
       <!-- <view class="game-spot2" style=""></view> -->
-      <view class='distance'> 25467 KM </view>
       <!-- <view class="game-spot2" style=""></view> -->
 
       <view class='distance'> {{distance}} KM </view>

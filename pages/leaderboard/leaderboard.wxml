@@ -34,7 +34,7 @@
             <view class="names2">{{user.nickname}} </view>
             <view class="game-info-div3">
                     <view class="game-info3">{{user.total_distance}} KM</view>
-                    <view class="game-info4">L20</view>
+                    <view class="game-info4">L{{user.level}}</view>
               </view>
           </view>
        </view>
