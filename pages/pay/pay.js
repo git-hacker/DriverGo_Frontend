@@ -1,6 +1,4 @@
-// pages/me/me.js
-const app = getApp()
-const myRequest = require('../../lib/api/request')
+// pages/pay/pay.js
 Page({
 
   /**
@@ -11,26 +9,16 @@ Page({
   },
 
   goDashboard: function () {
-    wx.reLaunch({
-      url: '/pages/dashboard/dashboard'
+    wx.navigateBack({
+      delta: 1
     })
   },
-  goStore: function () {
-    wx.reLaunch({
-      url: '/pages/store/store'
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(app.globalData.userInfo)
-    this.setData({
-      nickname: app.globalData.userInfo.nickName,
-      avatar_url: app.globalData.userInfo.avatarUrl,
-      distance: app.globalData.distance,
-      level: app.globalData.level
-    })
+    console.log(options.query)
   },
 
   /**

@@ -8,6 +8,12 @@ Page({
   
   },
 
+  goPay: function () {
+    wx.navigateTo({
+      url: '/pages/pay/pay'
+    })
+  },
+
   goMe: function () {
     wx.reLaunch({
       url: '/pages/me/me'

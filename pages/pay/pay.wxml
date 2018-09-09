@@ -1,0 +1,10 @@
+<!--pages/pay/pay.wxml-->
+<view class="page">
+
+<image class="back-icon" src="/lib/images/back-arrow-white.png" bindtap="goDashboard"></image> 
+
+<view class="pay-div">
+  <image class= "qr" src="/lib/images/qr.png"></image>
+</view>
+
+</view>

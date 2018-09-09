@@ -4,9 +4,13 @@
     <view class="banner-head">
       <view class='stats'>
       <view class='username'> {{nickname}}</view>
+
       <!-- <view class="game-spot2" style=""></view> -->
       <view class='distance'> 25467 KM </view>
       <!-- <view class="game-spot2" style=""></view> -->
+
+      <view class='distance'> {{distance}} KM </view>
+
       <view class='distance'> 345 Stations </view>
       <!-- <view class="game-spot2" style=""></view> -->
       <view class='distance'> 18 trips </view>
@@ -15,7 +19,7 @@
         <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
       </view>
       <view class='bottom-header'>
-        <view class='level'> Level 14 </view>
+        <view class='level'> Level {{level}} </view>
         <view class='level'> 22430 Points</view>
       </view>
     </view>

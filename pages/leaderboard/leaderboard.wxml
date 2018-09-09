@@ -7,15 +7,15 @@
     <view class="banner-head">
       <view class="title"> Champion Oct. </view>    
       <view class="avatars">
-        <view><image class="avatar-banner" src= "{{avatar_url}}"></image></view>
+        <view><image class="avatar-banner" src= "{{firstUser.avatar_url}}"></image></view>
       </view>
 
       <view class="game-info-div2">
-                <view class="names"> Fabio </view>
+                <view class="names"> {{firstUser.nickname}} </view>
                 <view class="game-spot2" style=""></view>
-                <view class="game-info2">13257285 KM</view>
+                <view class="game-info2">{{firstUser.total_distance}} KM</view>
                 <view class="game-spot2" style=""></view>
-                <view class="game-info2">L20</view>
+                <view class="game-info2">L{{level}}</view>
       </view>
       <view class="rewards-div">
             <image class="map-icon" src="/lib/images/gift.png"></image>
@@ -25,22 +25,23 @@
   </view>
 
   <view class='comments-container'>
-  
+  <block wx:for="{{users}}" wx:for-item="user" wx:key="users" wx:for-index="index">
     <view class="comment-div">
-    <view class="rank-num">2</view>
+    <view class="rank-num">{{index + 2}}</view>
       <view class="comment-item">
-        <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
+        <view class="avatar-box"><image class='comment-avatar' src= "{{user.avatar_url}}" > </image></view>
           <view class="comment-body"> 
-            <view class="names">Fabio </view>
+            <view class="names2">{{user.nickname}} </view>
             <view class="game-info-div3">
-                    <view class="game-info3">1325735 KM</view>
+                    <view class="game-info3">{{user.total_distance}} KM</view>
                     <view class="game-info4">L20</view>
               </view>
           </view>
        </view>
       </view>
+      </block>
 
-     <view class="comment-div">
+     <!-- <view class="comment-div">
     <view class="rank-num">2</view>
       <view class="comment-item">
         <view class="avatar-box"><image class='comment-avatar' src= "{{comment.comment_user.avatar_url}}" > </image></view>
@@ -52,7 +53,7 @@
               </view>
           </view>
        </view>
-      </view>
+      </view> -->
 
     </view>  
   </view> 

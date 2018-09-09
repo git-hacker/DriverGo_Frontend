@@ -26,6 +26,10 @@ Page({
     console.log('processing to login')
     const that = this
     wx.login({
+      fail: res => {
+        console.log("Big fail");
+        console.log(res);
+      },
       success: res => {
         console.log(res)
         wx.request({
@@ -40,6 +44,10 @@ Page({
             that.setData({
               buttonClickable:true
             })
+          },
+          fail: res => {
+            console.log("Login request failed");
+            console.log(res);
           }
         })
       }
