@@ -1,21 +1,63 @@
 /* pages/login/login.wxss */
-.page {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.container {
+   justify-content: space-around;
+   background-image: linear-gradient(to right, rgba(0,104,102,1), rgba(58,166,144,1));
+   height: 100vh;
+    min-height: 100vh;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0rpx;
+    box-sizing: border-box;
 }
 
-.go-button{
-  width: 100rpx;
-  height: 100rpx;
-  border: 1px solid black;
+.card{
+ 
+  background-color: white;
+  position:absolute;
+  top:30%;
+  left:45%;
+  height: 350px;
+  width: 250px;
+  border-radius: 2px;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px;
+  border: 2px solid white;
+
+}
+
+.content{
+
+}
+
+.title{
+  margin-top: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
-.go-button text{
-  flex: 0 0 auto;
-  font-size: 50rpx;
-  margin-top: 30rpx;
+.go-button {
+    background-image: linear-gradient(to right, rgba(0,104,102,0.90), rgba(58,166,144,1));
+    color: white;
+    border: 2px solid white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    border-radius: 20px;
+    padding: 0px 50px;
+    
 }
+
+.logo {
+  width:330rpx;
+  height: 290rpx;
+  position: absolute;
+  left: 50px;
+  bottom:100px;
+  
+}
+

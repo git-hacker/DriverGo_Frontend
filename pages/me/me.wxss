@@ -71,14 +71,16 @@
 }
 .achivements{
   font-weight: bold;
-  
-  
-  
+  padding-left:30rpx;
+  display: flex; 
+   
 }
 
 .redemption{
   font-weight: bold;
   margin-top: 100px;
+  padding-left:30rpx;
+  
 
 }
 
@@ -128,10 +130,9 @@
 
 .goods-card{
   position: relative;
-  height: 135rpx;
-  width: 135rpx;
-  border-radius: 50%;
-  background-color: rgb(231, 231, 231);
+  height: 120rpx;
+  width: 80rpx;
+  
   
 }
 
@@ -191,23 +192,54 @@
 }
 
 .goods-card-redemption{
+  background: rgb(255,255,255);
   position: relative;
-  margin: 30rpx;
-  width: 30vw;
-  height: 15vh;
-  border: 2rpx solid black;
-   
-  
+  /* margin: 30rpx; */
+  width: 28vw;
+  height: 28vw;
+  /* padding: 20rpx; */
+  border: 1rpx solid rgb(169, 169, 169);
+  border-radius: 4rpx;
+
+}
+
+.goods-image{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 7rpx;
+  left: 7rpx;
+  width: 95%;
+  height:70%;
 }
 
 .goods-title-redemption{
+  padding-left:30rpx;
   position: absolute;
-  bottom: 10rpx;
-  font-size: 15px;
-  font-weight: lighter;
-  width: 25vw;
-  left: 0;
+  bottom: 7rpx;
+  color: rgb(38, 38, 38);
+  /* width: 90rpx; */
+  height: 65rpx;
+  font-size: 27rpx;
+  letter-spacing: -1rpx;
+  /* left: 90rpx; */
   text-align: center;
+  overflow: hidden;  
+}
+
+.goods-subtitle-redemption{
+  padding-left:30rpx;
+  position: absolute;
+  bottom: -20rpx;
+  color:  rgba(58,166,144,1);
+  /* width: 90rpx; */
+  height: 65rpx;
+  font-size: 27rpx;
+  letter-spacing: -1rpx;
+  /* left: 90rpx; */
+  text-align: center;
+  overflow: hidden; 
 }
 
 .goods-points-redemption{
@@ -256,6 +288,7 @@ padding: 10px;
 .banner-2{
   font-weight: bold;
   font-size: 37rpx;
+  padding-left:30rpx;
 }
 
 .tabs {
@@ -287,4 +320,22 @@ border-top: 1px solid lightgrey;
   text-align: center;
   font-weight: bold;
   /* border-bottom: 1px solid navy; */
+}
+
+.arrow-icon{
+  height: 3vh;
+  width: 3vw;
+  padding-left: 650rpx;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.game-spot2{
+  background-color: rgb(80, 205, 171);
+  height: 15rpx;
+  width: 15rpx;
+  margin: 10rpx;
+  border-radius: 50%;
 }

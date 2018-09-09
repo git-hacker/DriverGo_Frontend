@@ -1,3 +1,14 @@
 <!--login/login/login.wxml-->
-<button wx:if="{{buttonClickable}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">Get User Info</button>
+<view class="container">
+  <view class='card'>
+    <view class='content'>
+      <view class='title'> Driver Go!</view>
+      <image class="logo" src="/lib/images/truck-log.png"></image>
+      <button class='go-button' wx:if="{{buttonClickable}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">Log in</button>
+    </view>
+  </view>
+</view>
+
+
+
 

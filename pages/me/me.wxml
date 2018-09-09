@@ -4,8 +4,11 @@
     <view class="banner-head">
       <view class='stats'>
       <view class='username'> {{nickname}}</view>
+      <!-- <view class="game-spot2" style=""></view> -->
       <view class='distance'> 25467 KM </view>
+      <!-- <view class="game-spot2" style=""></view> -->
       <view class='distance'> 345 Stations </view>
+      <!-- <view class="game-spot2" style=""></view> -->
       <view class='distance'> 18 trips </view>
     </view>   
       <view class="avatars">
@@ -38,19 +41,23 @@
 
   <view class='banner-body'>
     <view class='achivements'> My Achivements
+      <image class="arrow-icon" src="/lib/images/arrow-right.png"></image>
       <swiper class="goods-div" indicator-dots="{{indicatorDots}}">
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
     <swiper-item>
     <view class="goods-div2">
       <view class="goods-card">
+      <image class='goods-image' src= "/lib/images/Blue-badge.png"></image>
     <view class="goods-title"></view>
     <view class="goods-points"></view>
   </view>
    <view class="goods-card">
+    <image class='goods-image' src= "/lib/images/Green-badge.png"></image>
     <view class="goods-title"></view>
     <view class="goods-points"></view>
   </view>
    <view class="goods-card">
+   <image class='goods-image' src= "/lib/images/Orange-badge.png"></image>
     <view class="goods-title"></view>
     <view class="goods-points"></view>
   </view>
@@ -79,16 +86,22 @@
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
     <swiper-item>
     <view class="goods-div2-redemption">
-      <view class="goods-card-redemption">
-    <view class="goods-title-redemption">cigarrets</view>
+      <view class="goods-card-redemption" >
+      <image class='goods-image' src= "/lib/images/motel.png"></image>
+    <view class="goods-title-redemption">Motel - 15%</view>
+    <view class="goods-subtitle-redemption">Available</view>
     <view class="goods-points-redemption"></view>
   </view>
    <view class="goods-card-redemption">
-    <view class="goods-title-redemption">oil</view>
+   <image class='goods-image' src= "/lib/images/gas-station.png"></image>
+    <view class="goods-title-redemption">Oil - 3%</view>
+    <view class="goods-subtitle-redemption">Redeemed</view>
     <view class="goods-points-redemption"></view>
   </view>
    <view class="goods-card-redemption">
-    <view class="goods-title-redemption">bum</view>
+   <image  class='goods-image' src= "/lib/images/cigarettes.png"></image>
+    <view class="goods-title-redemption">Cigarretes</view>
+    <view class="goods-subtitle-redemption">Redeemed</view>
     <view class="goods-points-redemption"></view>
   </view>
   </view>
