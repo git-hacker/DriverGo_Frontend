@@ -2,8 +2,8 @@
 
 <!--LeaderBoard Popup  -->
  <view class="comment-item" bindtap="goLeaderboard">
-      <view class="avatar-box"><image class='comment-avatar' src= "{{avatar_url}}" > </image></view>
-      <view class="comment-head">{{nickname}} won the Champion Reward!</view>
+      <view class="avatar-box"><image class='comment-avatar' src= "{{firstUser.avatar_url}}" > </image></view>
+      <view class="comment-head">{{firstUser.nickname}} won the Champion Reward!</view>
       <view class="comment-body"> 
         <!-- <view class="comment-leaderboard">          </view>  -->
          <image class="arrow-icon-leaderboard" src="/lib/images/arrow-right.png"></image> 
@@ -47,17 +47,17 @@
  <!-- <swiper indicator-dots="{{indicatorDots}}"> -->
     <swiper-item>
     <view class="goods-div2">
-    <view class="goods-card">
+    <view class="goods-card" bindtap="goPay">
     <image class="goods-image" src="/lib/images/cigarettes.png"></image>
     <view class="goods-title">Cigarettes</view>
     <view class="goods-points">2000P</view>
   </view>
-   <view class="goods-card">
+   <view class="goods-card" bindtap="goPay">
    <image class="goods-image" src="/lib/images/Sinopec.jpg"></image>
     <view class="goods-title">Gas -3%</view>
     <view class="goods-points">2000P</view>
   </view>
-   <view class="goods-card">
+   <view class="goods-card" bindtap="goPay">
    <image class="goods-image" src="/lib/images/motel.png"></image>
     <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
@@ -66,17 +66,17 @@
     </swiper-item>
     <swiper-item>
     <view class="goods-div2">
-     <view class="goods-card">
+     <view class="goods-card" bindtap="goPay">
      <image class="goods-image" src="/lib/images/Sinopec.jpg"></image>
     <view class="goods-title">Gas -3%</view>
     <view class="goods-points">2000P</view>
   </view>
-  <view class="goods-card">
+  <view class="goods-card" bindtap="goPay">
   <image class="goods-image" src="/lib/images/cigarettes.png"></image>
     <view class="goods-title">Cigarettes</view>
     <view class="goods-points">2000P</view>
   </view>
-   <view class="goods-card">
+   <view class="goods-card" bindtap="goPay">
    <image class="goods-image" src="/lib/images/motel.png"></image>
     <view class="goods-title">Motel -12%</view>
     <view class="goods-points">2000P</view>
@@ -100,7 +100,7 @@
      <image class="game-image" src="/lib/images/truck.png"></image>  
     <view class="game-title">Truckathon</view>
      <view class="game-info-div">
-      <image class="game-spot" src="/lib/images/gift.png"></image>
+      <image class="game-spot" src="/lib/images/gift1.png"></image>
       <view class="game-info">100000 points</view>
       <image class="game-spot" src="/lib/images/cup.png"></image>
       <view class="game-info">Annual Insurance</view>

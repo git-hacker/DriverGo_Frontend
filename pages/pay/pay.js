@@ -1,4 +1,4 @@
-// pages/store/store.js
+// pages/pay/pay.js
 Page({
 
   /**
@@ -8,20 +8,9 @@ Page({
   
   },
 
-  goPay: function () {
-    wx.navigateTo({
-      url: '/pages/pay/pay'
-    })
-  },
-
-  goMe: function () {
-    wx.reLaunch({
-      url: '/pages/me/me'
-    })
-  },
   goDashboard: function () {
-    wx.reLaunch({
-      url: '/pages/dashboard/dashboard'
+    wx.navigateBack({
+      delta: 1
     })
   },
 
@@ -29,7 +18,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    console.log(options.query)
   },
 
   /**
