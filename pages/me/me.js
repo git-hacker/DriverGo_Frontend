@@ -29,7 +29,8 @@ Page({
       nickname: app.globalData.userInfo.nickName,
       avatar_url: app.globalData.userInfo.avatarUrl,
       distance: app.globalData.distance,
-      level: app.globalData.level
+      level: app.globalData.level,
+      points: app.globalData.points
     })
   },
 
